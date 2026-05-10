@@ -1,0 +1,1052 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UC-HDSF 2026 - International Conference on “Urban Cultures: Heritage, Design & Sustainable Futures </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'primary': '#1976D2',
+                        'secondary': '#388E3C',
+                        'accent': '#F57C00',
+                        'design': '#E91E63',
+                        'innovation': '#2196F3',
+                        'sustainability': '#4CAF50'
+                    }
+                }
+            }
+        };
+    </script>
+</head>
+<body class="font-inter bg-gray-50 text-gray-900">
+    <!-- Navigation Header -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-4">
+                    <div class="text-2xl font-bold text-primary">UC-HDSF 2026</div>
+                    <div class="hidden md:block text-sm text-gray-600">
+                        Oct 22–23, 2026 | Manipal University Jaipur
+                    </div>
+                </div>
+                <div class="hidden lg:flex space-x-8">
+                    <button onclick="showPage('home')" class="nav-link text-gray-700 hover:text-primary transition-colors font-medium">Home</button>
+                    <button onclick="showPage('authors')" class="nav-link text-gray-700 hover:text-primary transition-colors font-medium">Call for Papers</button>
+                    <button onclick="showPage('speakers')" class="nav-link text-gray-700 hover:text-primary transition-colors font-medium">Speakers</button>
+                    <button onclick="showPage('leadership')" class="nav-link text-gray-700 hover:text-primary transition-colors font-medium">Leadership</button>
+                    <button onclick="showPage('registration')" class="nav-link bg-primary text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">Register</button>
+                    <button onclick="showPage('contact')" class="nav-link text-gray-700 hover:text-primary transition-colors font-medium">Contact</button>
+                </div>
+                <button class="lg:hidden text-gray-700" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="lg:hidden hidden pb-4">
+                <div class="flex flex-col space-y-3">
+                    <button onclick="showPage('home')" class="nav-link text-left text-gray-700 hover:text-primary transition-colors font-medium">Home</button>
+                    <button onclick="showPage('authors')" class="nav-link text-left text-gray-700 hover:text-primary transition-colors font-medium">Call for Papers</button>
+                    <button onclick="showPage('speakers')" class="nav-link text-left text-gray-700 hover:text-primary transition-colors font-medium">Speakers</button>
+                    <button onclick="showPage('leadership')" class="nav-link text-left text-gray-700 hover:text-primary transition-colors font-medium">Leadership</button>
+                    <button onclick="showPage('registration')" class="nav-link text-left bg-primary text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors w-fit">Register</button>
+                    <button onclick="showPage('contact')" class="nav-link text-left text-gray-700 hover:text-primary transition-colors font-medium">Contact</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <div id="homePage" class="page">
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-br from-primary to-blue-800 text-white py-20">
+            <div class="container mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">UC-HDSF 2026</h1>
+                <p class="text-xl md:text-2xl mb-4 text-blue-100">International Conference on “Urban Cultures: Heritage, Design & Sustainable Futures”</p>
+                <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8 mb-8">
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-calendar-alt text-accent"></i>
+                        <span class="text-lg">October 22–23, 2026</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-map-marker-alt text-accent"></i>
+                        <span class="text-lg">Manipal University Jaipur, India</span>
+                    </div>
+                </div>
+                <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                    <button onclick="showPage('registration')" class="bg-accent hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
+                        Register Now
+                    </button>
+                    <button onclick="showPage('authors')" class="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
+                        Submit Paper
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conference Themes -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Conference Themes</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Design Theme -->
+                    <div class="bg-gradient-to-br from-design to-pink-600 text-white p-8 rounded-xl shadow-lg">
+                        <div class="text-4xl mb-4">🎨</div>
+                        <h3 class="text-2xl font-bold mb-4">DESIGN</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li>• Fashion and Textile Design</li>
+                            <li>• Product and Industrial Design</li>
+                            <li>• Interior and Spatial Design</li>
+                            <li>• Visual Arts and Communication</li>
+                            <li>• Animation, VFX, and Digital Storytelling</li>
+                        </ul>
+                    </div>
+                    <!-- Innovation Theme -->
+                    <div class="bg-gradient-to-br from-innovation to-blue-600 text-white p-8 rounded-xl shadow-lg">
+                        <div class="text-4xl mb-4">💡</div>
+                        <h3 class="text-2xl font-bold mb-4">INNOVATION</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li>• Design Thinking and Human-Centered Innovation</li>
+                            <li>• AR/VR, Metaverse, and Immersive Experiences</li>
+                            <li>• Artificial Intelligence and Smart Design</li>
+                            <li>• UI/UX and Interaction Design</li>
+                            <li>• Digital Fabrication and Prototyping</li>
+                        </ul>
+                    </div>
+                    <!-- Sustainability Theme -->
+                    <div class="bg-gradient-to-br from-sustainability to-green-600 text-white p-8 rounded-xl shadow-lg">
+                        <div class="text-4xl mb-4">🌱</div>
+                        <h3 class="text-2xl font-bold mb-4">SUSTAINABILITY</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li>• Sustainable Fashion and Ethical Production</li>
+                            <li>• Green Materials and Eco-Friendly Processes</li>
+                            <li>• Circular Design and Zero-Waste Strategies</li>
+                            <li>• Design for Social Impact</li>
+                            <li>• Climate-Conscious Branding</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Important Dates -->
+        <section class="py-20 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Important Dates</h2>
+                <div class="max-w-4xl mx-auto">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="bg-white p-6 rounded-xl shadow-md">
+                            <div class="flex items-center space-x-4">
+                                <div class="bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-file-alt"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-lg">Abstract Submission</h3>
+                                    <p class="text-primary font-bold">September 15, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-md">
+                            <div class="flex items-center space-x-4">
+                                <div class="bg-secondary text-white w-12 h-12 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-lg">Acceptance Notification</h3>
+                                    <p class="text-secondary font-bold">September 30, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-md">
+                            <div class="flex items-center space-x-4">
+                                <div class="bg-accent text-white w-12 h-12 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-file-text"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-lg">Full Paper Submission</h3>
+                                    <p class="text-accent font-bold">October 15, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-md">
+                            <div class="flex items-center space-x-4">
+                                <div class="bg-design text-white w-12 h-12 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-user-plus"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-lg">Early Bird Registration</h3>
+                                    <p class="text-design font-bold">October 20, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-8">About UC-HDSF 2026</h2>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-8">
+                        The Department of Fashion Design, School of Architecture & Design, FOSTA, Manipal University Jaipur, India is organizing the UC-HDSF 2026 during October 22–23, 2026. UC-HDSF 2026 invites industry professionals, academicians, researchers, and students to submit original, high-quality, and previously unpublished research papers.
+                    </p>
+                    <div class="grid md:grid-cols-3 gap-8 text-center">
+                        <div>
+                            <div class="text-3xl font-bold text-primary mb-2">2</div>
+                            <p class="text-gray-600">Days of Conference</p>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-secondary mb-2">50+</div>
+                            <p class="text-gray-600">Expected Papers</p>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-accent mb-2">200+</div>
+                            <p class="text-gray-600">Expected Participants</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Authors Page -->
+    <div id="authorsPage" class="page hidden">
+        <section class="py-20 bg-gradient-to-br from-primary to-blue-800 text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Call for Papers</h1>
+                <p class="text-xl text-blue-100 max-w-3xl mx-auto">
+                    Submit your original research and join the global conversation on Design, Innovation, and Sustainability
+                </p>
+            </div>
+        </section>
+
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <!-- Submission Guidelines -->
+                    <div class="bg-gray-50 p-8 rounded-xl mb-12">
+                        <h2 class="text-3xl font-bold mb-6">Submission Guidelines</h2>
+                        <div class="prose prose-lg max-w-none">
+                            <p class="text-gray-700 mb-6">
+                                Researchers, academicians, and professionals are invited to submit their research abstracts and full papers for oral and poster presentations. Selected presentations will be appreciated with Cash Awards under "Best Paper Category" and "Outstanding Research Category".
+                            </p>
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <div class="bg-white p-6 rounded-lg border-l-4 border-primary">
+                                    <h3 class="font-semibold text-lg mb-2">Submission Requirements</h3>
+                                    <ul class="space-y-2 text-gray-700">
+                                        <li>• Original, unpublished research</li>
+                                        <li>• High-quality academic content</li>
+                                        <li>• Follow conference format guidelines</li>
+                                        <li>• Peer-review process</li>
+                                    </ul>
+                                </div>
+                                <div class="bg-white p-6 rounded-lg border-l-4 border-secondary">
+                                    <h3 class="font-semibold text-lg mb-2">Presentation Formats</h3>
+                                    <ul class="space-y-2 text-gray-700">
+                                        <li>• Oral presentations</li>
+                                        <li>• Poster presentations</li>
+                                        <li>• Panel discussions</li>
+                                        <li>• Interactive sessions</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline -->
+                    <div class="mb-12">
+                        <h2 class="text-3xl font-bold mb-8 text-center">Submission Timeline</h2>
+                        <div class="space-y-6">
+                            <div class="flex items-center space-x-4 p-6 bg-red-50 rounded-xl border-l-4 border-red-500">
+                                <div class="bg-red-500 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold">1</div>
+                                <div>
+                                    <h3 class="font-semibold text-lg">Abstract Submission Deadline</h3>
+                                    <p class="text-red-600 font-bold">September 15, 2025</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-4 p-6 bg-yellow-50 rounded-xl border-l-4 border-yellow-500">
+                                <div class="bg-yellow-500 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold">2</div>
+                                <div>
+                                    <h3 class="font-semibold text-lg">Notification of Acceptance</h3>
+                                    <p class="text-yellow-600 font-bold">September 30, 2025</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-4 p-6 bg-blue-50 rounded-xl border-l-4 border-blue-500">
+                                <div class="bg-blue-500 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold">3</div>
+                                <div>
+                                    <h3 class="font-semibold text-lg">Full Paper Submission Deadline</h3>
+                                    <p class="text-blue-600 font-bold">October 15, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Topics -->
+                    <div>
+                        <h2 class="text-3xl font-bold mb-8 text-center">Research Topics</h2>
+                        <div class="grid md:grid-cols-3 gap-8">
+                            <!-- Design Topics -->
+                            <div class="bg-design/10 p-6 rounded-xl">
+                                <h3 class="text-xl font-bold text-design mb-4 flex items-center">
+                                    <span class="mr-2">🎨</span> DESIGN
+                                </h3>
+                                <ul class="space-y-2 text-sm">
+                                    <li>• Fashion and Textile Design</li>
+                                    <li>• Product and Industrial Design</li>
+                                    <li>• Interior and Spatial Design</li>
+                                    <li>• Visual Arts and Communication Design</li>
+                                    <li>• Craft, Heritage, and Contemporary Practices</li>
+                                    <li>• Animation, VFX, and Digital Storytelling</li>
+                                    <li>• Media, Journalism, and Communication Design</li>
+                                    <li>• Performing Arts and Cultural Expression</li>
+                                </ul>
+                            </div>
+                            <!-- Innovation Topics -->
+                            <div class="bg-innovation/10 p-6 rounded-xl">
+                                <h3 class="text-xl font-bold text-innovation mb-4 flex items-center">
+                                    <span class="mr-2">💡</span> INNOVATION
+                                </h3>
+                                <ul class="space-y-2 text-sm">
+                                    <li>• Design Thinking and Human-Centered Innovation</li>
+                                    <li>• AR/VR, Metaverse, and Immersive Experiences</li>
+                                    <li>• Artificial Intelligence and Smart Design</li>
+                                    <li>• UI/UX and Interaction Design</li>
+                                    <li>• Digital Fabrication and Prototyping (3D Printing, CAD)</li>
+                                    <li>• Educational Technology and Creative Pedagogy</li>
+                                    <li>• Innovation in Design Education and Curriculum</li>
+                                    <li>• Cross-disciplinary Collaborations in Design</li>
+                                </ul>
+                            </div>
+                            <!-- Sustainability Topics -->
+                            <div class="bg-sustainability/10 p-6 rounded-xl">
+                                <h3 class="text-xl font-bold text-sustainability mb-4 flex items-center">
+                                    <span class="mr-2">🌱</span> SUSTAINABILITY
+                                </h3>
+                                <ul class="space-y-2 text-sm">
+                                    <li>• Sustainable Fashion and Ethical Production</li>
+                                    <li>• Green Materials and Eco-Friendly Processes</li>
+                                    <li>• Circular Design and Zero-Waste Strategies</li>
+                                    <li>• Sustainable Architecture and Interior Design</li>
+                                    <li>• Environmental Graphics and Awareness Campaigns</li>
+                                    <li>• Design for Social Impact and Community Empowerment</li>
+                                    <li>• Climate-Conscious Branding and Communication</li>
+                                    <li>• Policy, Governance, and Business Models</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Publication Info -->
+                    <div class="mt-12 bg-gray-50 p-8 rounded-xl">
+                        <h2 class="text-2xl font-bold mb-4">Publication and Indexing</h2>
+                        <p class="text-gray-700 mb-4">
+                            All presented papers will be published in the Abstract Book by the Department of Fashion Design, Manipal University Jaipur. Selected high-quality papers will be eligible for publication in Scopus journals following a rigorous peer review process.
+                        </p>
+                        <div class="flex items-center space-x-4">
+                            <div class="bg-primary text-white px-4 py-2 rounded-lg">
+                                <i class="fas fa-book mr-2"></i>
+                                Abstract Book
+                            </div>
+                            <div class="bg-secondary text-white px-4 py-2 rounded-lg">
+                                <i class="fas fa-journal-whills mr-2"></i>
+                                Scopus Journals
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Speakers Page -->
+    <div id="speakersPage" class="page hidden">
+        <section class="py-20 bg-gradient-to-br from-primary to-blue-800 text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Distinguished Speakers</h1>
+                <p class="text-xl text-blue-100 max-w-3xl mx-auto">
+                    UC-HDSF 2026 is honored to host distinguished keynote speakers from reputed academic and research institutions worldwide
+                </p>
+            </div>
+        </section>
+
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <!-- Keynote Speakers -->
+                <div class="mb-16">
+                    <h2 class="text-3xl font-bold text-center mb-12">Keynote Speakers</h2>
+                    <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                        <div class="bg-gradient-to-br from-primary/10 to-blue-50 p-8 rounded-xl shadow-lg text-center">
+                            <!-- Modern academic professional headshot placeholder -->
+                            <img src="https://pixabay.com/get/g0567b8fec59f1d8ae08eb360dcde4750127d0bc2314d7be10e2d059a395d65d09b6d625c983e36adc4ec8568c9fbe14876ea4a9c33a7c98987b2a32450399181_1280.jpg" alt="Prof. Dr. Vandana Kabra Bhandari" class="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg" />
+                            <h3 class="text-xl font-bold mb-2">Prof. Dr. Vandana Kabra Bhandari</h3>
+                            <p class="text-primary font-semibold mb-2">Researcher & Educator</p>
+                            <p class="text-gray-600">Former Dean NIFT</p>
+                        </div>
+                        <div class="bg-gradient-to-br from-secondary/10 to-green-50 p-8 rounded-xl shadow-lg text-center">
+                            <!-- European academic professional placeholder -->
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300" alt="Prof. Dr. Paulo Simoes Rodrigues" class="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg" />
+                            <h3 class="text-xl font-bold mb-2">Prof. Dr. Paulo Simoes Rodrigues</h3>
+                            <p class="text-secondary font-semibold mb-2">Director</p>
+                            <p class="text-gray-600">Centre for Art History and Artistic Research, University of Evora, Portugal</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Invited Speakers -->
+                <div>
+                    <h2 class="text-3xl font-bold text-center mb-12">Invited Speakers</h2>
+                    <div class="grid md:grid-cols-3 lg:grid-cols-5 gap-6">
+                        <div class="bg-white p-6 rounded-xl shadow-lg text-center border border-gray-200">
+                            <!-- Indian academic professional woman placeholder -->
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&h=200" alt="Prof. Dr. Rena Mehta" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" />
+                            <h4 class="font-semibold mb-1">Prof. Dr. Rena Mehta</h4>
+                            <p class="text-sm text-gray-600">IICD, Jaipur, India</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-lg text-center border border-gray-200">
+                            <!-- Indian academic professional woman placeholder -->
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&h=200" alt="Prof. Dr. Vaibbhavi Pruthviraj Ranavaade" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" />
+                            <h4 class="font-semibold mb-1">Prof. Dr. Vaibbhavi Pruthviraj Ranavaade</h4>
+                            <p class="text-sm text-gray-600">Dean, Chitkara University, Chandigarh</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-lg text-center border border-gray-200">
+                            <!-- Indian academic professional man placeholder -->
+                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&h=200" alt="Prof. Dr. A. Balasubramaniam" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" />
+                            <h4 class="font-semibold mb-1">Prof. Dr. A. Balasubramaniam</h4>
+                            <p class="text-sm text-gray-600">Director, JKLU, Jaipur</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-lg text-center border border-gray-200">
+                            <!-- European academic professional man placeholder -->
+                            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&h=200" alt="Dr. Antonio Gorgel P" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" />
+                            <h4 class="font-semibold mb-1">Dr. Antonio Gorgel P</h4>
+                            <p class="text-sm text-gray-600">Universidade Europeia, Portugal</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-lg text-center border border-gray-200">
+                            <!-- Indian business professional man placeholder -->
+                            <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&h=200" alt="Mr. Ankur Throat" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" />
+                            <h4 class="font-semibold mb-1">Mr. Ankur Throat</h4>
+                            <p class="text-sm text-gray-600">Category Head, Aditya Birla</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Leadership Page -->
+    <div id="leadershipPage" class="page hidden">
+        <section class="py-20 bg-gradient-to-br from-primary to-blue-800 text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Conference Leadership</h1>
+                <p class="text-xl text-blue-100 max-w-3xl mx-auto">
+                    Meet the distinguished leaders and organizing committee behind UC-HDSF 2026
+                </p>
+            </div>
+        </section>
+
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <!-- Leadership Hierarchy -->
+                <div class="space-y-16">
+                    <!-- Chief Patron -->
+                    <div class="text-center">
+                        <h2 class="text-3xl font-bold mb-8">Chief Patron</h2>
+                        <div class="bg-gradient-to-br from-primary/10 to-blue-50 p-8 rounded-xl shadow-lg max-w-md mx-auto">
+                            <h3 class="text-xl font-bold mb-2">Mr. S. Vaitheeswaran</h3>
+                            <p class="text-primary font-semibold">Chairperson</p>
+                            <p class="text-gray-600">Manipal University Jaipur, Rajasthan, India</p>
+                        </div>
+                    </div>
+
+                    <!-- Patron -->
+                    <div class="text-center">
+                        <h2 class="text-3xl font-bold mb-8">Patron</h2>
+                        <div class="bg-gradient-to-br from-secondary/10 to-green-50 p-8 rounded-xl shadow-lg max-w-md mx-auto">
+                            <h3 class="text-xl font-bold mb-2">Dr. Niti Nipun Sharma</h3>
+                            <p class="text-secondary font-semibold">President</p>
+                            <p class="text-gray-600">Manipal University Jaipur, Rajasthan, India</p>
+                        </div>
+                    </div>
+
+                    <!-- Co-Patrons -->
+                    <div>
+                        <h2 class="text-3xl font-bold text-center mb-8">Co-Patrons</h2>
+                        <div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+                            <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200 text-center">
+                                <h3 class="font-bold mb-2">Dr. Karunakar A. Kotegar</h3>
+                                <p class="text-accent font-semibold">Pro-President</p>
+                                <p class="text-sm text-gray-600">Manipal University Jaipur</p>
+                            </div>
+                            <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200 text-center">
+                                <h3 class="font-bold mb-2">Dr. Amit Soni</h3>
+                                <p class="text-accent font-semibold">Registrar</p>
+                                <p class="text-sm text-gray-600">Manipal University Jaipur</p>
+                            </div>
+                            <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200 text-center">
+                                <h3 class="font-bold mb-2">Dr. Nitu Bhatnagar</h3>
+                                <p class="text-accent font-semibold">Provost</p>
+                                <p class="text-sm text-gray-600">Manipal University Jaipur</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Conference Chairs -->
+                    <div>
+                        <h2 class="text-3xl font-bold text-center mb-8">Conference Chairs</h2>
+                        <div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+                            <div class="bg-gradient-to-br from-design/10 to-pink-50 p-6 rounded-xl shadow-lg text-center">
+                                <h3 class="font-bold mb-2">Dr. Kuldeep Sangwan</h3>
+                                <p class="text-design font-semibold">Professor</p>
+                                <p class="text-sm text-gray-600">Manipal University Jaipur</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-innovation/10 to-blue-50 p-6 rounded-xl shadow-lg text-center">
+                                <h3 class="font-bold mb-2">Dr. Madhura Yadav</h3>
+                                <p class="text-innovation font-semibold">Director</p>
+                                <p class="text-sm text-gray-600">School of Architecture and Design</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-sustainability/10 to-green-50 p-6 rounded-xl shadow-lg text-center">
+                                <h3 class="font-bold mb-2">Dr. Richa Jagatramka</h3>
+                                <p class="text-sustainability font-semibold">Head</p>
+                                <p class="text-sm text-gray-600">Department of Fashion Design</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Organizing Committee -->
+                    <div>
+                        <h2 class="text-3xl font-bold text-center mb-8">Organizing Committee</h2>
+                        <div class="bg-gray-50 p-8 rounded-xl">
+                            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                                <!-- Conveners -->
+                                <div class="md:col-span-2 lg:col-span-4 mb-6">
+                                    <h3 class="text-xl font-bold mb-4 text-center">Conference Conveners</h3>
+                                    <div class="grid md:grid-cols-3 gap-4">
+                                        <div class="bg-white p-4 rounded-lg text-center">
+                                            <h4 class="font-semibold">Dr. Deepshikha Sharma</h4>
+                                            <p class="text-sm text-primary">Associate Professor</p>
+                                        </div>
+                                        <div class="bg-white p-4 rounded-lg text-center">
+                                            <h4 class="font-semibold">Dr. Aanchal Trehan</h4>
+                                            <p class="text-sm text-primary">Assistant Professor</p>
+                                        </div>
+                                        <div class="bg-white p-4 rounded-lg text-center">
+                                            <h4 class="font-semibold">Mr. Mahboob Anwer</h4>
+                                            <p class="text-sm text-primary">Assistant Professor</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Secretary -->
+                                <div class="md:col-span-2 lg:col-span-4 mb-6">
+                                    <h3 class="text-xl font-bold mb-4 text-center">Conference Secretary</h3>
+                                    <div class="max-w-sm mx-auto">
+                                        <div class="bg-white p-4 rounded-lg text-center">
+                                            <h4 class="font-semibold">Mr. Harshwardhan Soni</h4>
+                                            <p class="text-sm text-secondary">Assistant Professor</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Additional Committee Members -->
+                                <div class="md:col-span-2 lg:col-span-4">
+                                    <h3 class="text-xl font-bold mb-4 text-center">Committee Members</h3>
+                                    <div class="grid md:grid-cols-2 gap-4">
+                                        <div class="bg-white p-4 rounded-lg">
+                                            <h4 class="font-semibold">Prof. Pratibha Mishra</h4>
+                                            <p class="text-sm text-gray-600">Professor, Department of Fashion Design & Interior Design</p>
+                                        </div>
+                                        <div class="bg-white p-4 rounded-lg">
+                                            <h4 class="font-semibold">All Faculty Members</h4>
+                                            <p class="text-sm text-gray-600">Department of Fashion Design, SA&D, FoSTA</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Registration Page -->
+    <div id="registrationPage" class="page hidden">
+        <section class="py-20 bg-gradient-to-br from-primary to-blue-800 text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Conference Registration</h1>
+                <p class="text-xl text-blue-100 max-w-3xl mx-auto">
+                    Join UC-HDSF 2026 and be part of the global conversation on Design, Innovation, and Sustainability
+                </p>
+            </div>
+        </section>
+
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <!-- Registration Fees -->
+                <div class="mb-16">
+                    <h2 class="text-3xl font-bold text-center mb-12">Registration Fees</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+                        <div class="bg-gradient-to-br from-design/10 to-pink-50 p-6 rounded-xl shadow-lg border border-design/20">
+                            <div class="text-center">
+                                <div class="text-3xl mb-4">🎓</div>
+                                <h3 class="text-xl font-bold mb-4">Students (UG/PG/PhD)</h3>
+                                <div class="space-y-2">
+                                    <div class="text-2xl font-bold text-design">₹9,500</div>
+                                    <div class="text-lg text-gray-600">USD $200</div>
+                                </div>
+                                <ul class="text-sm text-gray-600 mt-4 space-y-1">
+                                    <li>• Conference access</li>
+                                    <li>• Publication in Abstract Book</li>
+                                    <li>• Accommodation</li>
+                                    <li>• Lunch & Conference Kit</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="bg-gradient-to-br from-innovation/10 to-blue-50 p-6 rounded-xl shadow-lg border border-innovation/20">
+                            <div class="text-center">
+                                <div class="text-3xl mb-4">👨‍🏫</div>
+                                <h3 class="text-xl font-bold mb-4">Faculty & Researchers</h3>
+                                <div class="space-y-2">
+                                    <div class="text-2xl font-bold text-innovation">₹10,500</div>
+                                    <div class="text-lg text-gray-600">USD $250</div>
+                                </div>
+                                <ul class="text-sm text-gray-600 mt-4 space-y-1">
+                                    <li>• Conference access</li>
+                                    <li>• Publication in Abstract Book</li>
+                                    <li>• Accommodation</li>
+                                    <li>• Lunch & Conference Kit</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="bg-gradient-to-br from-sustainability/10 to-green-50 p-6 rounded-xl shadow-lg border border-sustainability/20">
+                            <div class="text-center">
+                                <div class="text-3xl mb-4">💼</div>
+                                <h3 class="text-xl font-bold mb-4">Industry Professionals</h3>
+                                <div class="space-y-2">
+                                    <div class="text-2xl font-bold text-sustainability">₹12,500</div>
+                                    <div class="text-lg text-gray-600">USD $300</div>
+                                </div>
+                                <ul class="text-sm text-gray-600 mt-4 space-y-1">
+                                    <li>• Conference access</li>
+                                    <li>• Publication in Abstract Book</li>
+                                    <li>• Accommodation</li>
+                                    <li>• Lunch & Conference Kit</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="bg-gradient-to-br from-accent/10 to-orange-50 p-6 rounded-xl shadow-lg border border-accent/20">
+                            <div class="text-center">
+                                <div class="text-3xl mb-4">👥</div>
+                                <h3 class="text-xl font-bold mb-4">Attendee Only</h3>
+                                <div class="space-y-2">
+                                    <div class="text-2xl font-bold text-accent">₹2,000</div>
+                                    <div class="text-lg text-gray-600">USD $25</div>
+                                </div>
+                                <ul class="text-sm text-gray-600 mt-4 space-y-1">
+                                    <li>• Conference access</li>
+                                    <li>• Lunch</li>
+                                    <li>• Conference Kit</li>
+                                    <li class="text-gray-400">• No accommodation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-8">
+                        <p class="text-lg text-red-600 font-semibold">Early Bird Registration Deadline: October 20, 2025</p>
+                    </div>
+                </div>
+
+                <!-- Registration Form -->
+                <div class="max-w-2xl mx-auto">
+                    <h2 class="text-3xl font-bold text-center mb-8">Registration Form</h2>
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-lg">
+                        <form class="space-y-6">
+                            <!-- Personal Information -->
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <div>
+                                    <label class="block text-sm font-semibold text-gray-700 mb-2">First Name *</label>
+                                    <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Enter first name" required>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-semibold text-gray-700 mb-2">Last Name *</label>
+                                    <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Enter last name" required>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Email Address *</label>
+                                <input type="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Enter email address" required>
+                            </div>
+                            
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <div>
+                                    <label class="block text-sm font-semibold text-gray-700 mb-2">Phone Number *</label>
+                                    <input type="tel" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Enter phone number" required>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-semibold text-gray-700 mb-2">Country *</label>
+                                    <select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                                        <option value="">Select country</option>
+                                        <option value="india">India</option>
+                                        <option value="usa">United States</option>
+                                        <option value="uk">United Kingdom</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Professional Information -->
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Registration Category *</label>
+                                <select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                                    <option value="">Select category</option>
+                                    <option value="student">Students (UG/PG/PhD) - ₹9,500</option>
+                                    <option value="faculty">Faculty & Researchers - ₹10,500</option>
+                                    <option value="industry">Industry Professionals - ₹12,500</option>
+                                    <option value="attendee">Attendee Only - ₹2,000</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Institution/Organization *</label>
+                                <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Enter institution/organization name" required>
+                            </div>
+
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Designation/Position *</label>
+                                <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Enter your designation" required>
+                            </div>
+
+                            <!-- Paper Submission -->
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Are you submitting a paper?</label>
+                                <div class="flex space-x-4">
+                                    <label class="flex items-center">
+                                        <input type="radio" name="paper_submission" value="yes" class="mr-2">
+                                        <span>Yes</span>
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="radio" name="paper_submission" value="no" class="mr-2">
+                                        <span>No</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Research Area of Interest</label>
+                                <select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
+                                    <option value="">Select primary research area</option>
+                                    <option value="design">Design</option>
+                                    <option value="innovation">Innovation</option>
+                                    <option value="sustainability">Sustainability</option>
+                                    <option value="interdisciplinary">Interdisciplinary</option>
+                                </select>
+                            </div>
+
+                            <!-- Additional Requirements -->
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Special Requirements/Dietary Restrictions</label>
+                                <textarea class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" rows="3" placeholder="Please mention any special requirements or dietary restrictions"></textarea>
+                            </div>
+
+                            <!-- Terms and Conditions -->
+                            <div class="flex items-start space-x-3">
+                                <input type="checkbox" class="mt-1" required>
+                                <label class="text-sm text-gray-600">
+                                    I agree to the terms and conditions of UC-HDSF 2026 and consent to the processing of my personal data for conference-related communications.
+                                </label>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <div class="text-center">
+                                <button type="submit" class="bg-primary hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors w-full md:w-auto">
+                                    Register for UC-HDSF 2026
+                                </button>
+                                <p class="text-sm text-gray-600 mt-4">
+                                    <!-- TODO: Implement payment gateway integration -->
+                                    Payment details will be provided after registration submission
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Payment Information -->
+                <div class="mt-16 bg-blue-50 p-8 rounded-xl max-w-4xl mx-auto">
+                    <h2 class="text-2xl font-bold text-center mb-6">Payment Information</h2>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold mb-4">International Participants</h3>
+                            <p class="text-gray-600 mb-4">Payment gateway link will be provided after registration</p>
+                            <div class="bg-white p-4 rounded-lg">
+                                <i class="fas fa-credit-card text-3xl text-primary mb-2"></i>
+                                <p class="text-sm">USD Payment Gateway</p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold mb-4">Indian Participants</h3>
+                            <p class="text-gray-600 mb-4">Payment gateway link will be provided after registration</p>
+                            <div class="bg-white p-4 rounded-lg">
+                                <i class="fas fa-university text-3xl text-secondary mb-2"></i>
+                                <p class="text-sm">INR Payment Gateway</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Contact Page -->
+    <div id="contactPage" class="page hidden">
+        <section class="py-20 bg-gradient-to-br from-primary to-blue-800 text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
+                <p class="text-xl text-blue-100 max-w-3xl mx-auto">
+                    Get in touch with us for queries, paper submissions, and sponsorship opportunities
+                </p>
+            </div>
+        </section>
+
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+                    <!-- Contact Information -->
+                    <div>
+                        <h2 class="text-3xl font-bold mb-8">Get in Touch</h2>
+                        <div class="space-y-6">
+                            <div class="flex items-start space-x-4">
+                                <div class="bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-lg">Email</h3>
+                                    <p class="text-gray-600">uc-hdsf.2026.muj@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <div class="bg-secondary text-white w-12 h-12 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-lg">Venue</h3>
+                                    <p class="text-gray-600">
+                                        Department of Fashion Desig & Interior Design<br>
+                                        School of Architecture and Design, FoSTA<br>
+                                        Manipal University Jaipur<br>
+                                        Jaipur, Rajasthan, India - 303007
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <div class="bg-accent text-white w-12 h-12 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-lg">Conference Dates</h3>
+                                    <p class="text-gray-600">November 4-5, 2025</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <div class="bg-design text-white w-12 h-12 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-globe"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-lg">Website</h3>
+                                    <p class="text-gray-600">Coming soon</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Travel Information -->
+                        <div class="mt-12 bg-gray-50 p-6 rounded-xl">
+                            <h3 class="text-xl font-bold mb-4">Travel & Accommodation</h3>
+                            <p class="text-gray-700 mb-4">
+                                Manipal University Jaipur is well-connected by air, rail, and road. Participants will receive assistance for accommodation and travel arrangements.
+                            </p>
+                            <div class="grid grid-cols-3 gap-4 text-center">
+                                <div class="bg-white p-4 rounded-lg">
+                                    <i class="fas fa-plane text-primary text-2xl mb-2"></i>
+                                    <p class="text-sm font-semibold">Air</p>
+                                    <p class="text-xs text-gray-600">Jaipur Airport</p>
+                                </div>
+                                <div class="bg-white p-4 rounded-lg">
+                                    <i class="fas fa-train text-secondary text-2xl mb-2"></i>
+                                    <p class="text-sm font-semibold">Rail</p>
+                                    <p class="text-xs text-gray-600">Jaipur Junction</p>
+                                </div>
+                                <div class="bg-white p-4 rounded-lg">
+                                    <i class="fas fa-car text-accent text-2xl mb-2"></i>
+                                    <p class="text-sm font-semibold">Road</p>
+                                    <p class="text-xs text-gray-600">Well Connected</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div>
+                        <h2 class="text-3xl font-bold mb-8">Send us a Message</h2>
+                        <div class="bg-gray-50 p-8 rounded-xl">
+                            <form class="space-y-6">
+                                <div class="grid md:grid-cols-2 gap-6">
+                                    <div>
+                                        <label class="block text-sm font-semibold text-gray-700 mb-2">Name *</label>
+                                        <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Your name" required>
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-semibold text-gray-700 mb-2">Email *</label>
+                                        <input type="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Your email" required>
+                                    </div>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-semibold text-gray-700 mb-2">Subject *</label>
+                                    <select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                                        <option value="">Select subject</option>
+                                        <option value="general">General Inquiry</option>
+                                        <option value="paper">Paper Submission</option>
+                                        <option value="registration">Registration</option>
+                                        <option value="sponsorship">Sponsorship</option>
+                                        <option value="accommodation">Accommodation</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-semibold text-gray-700 mb-2">Message *</label>
+                                    <textarea class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" rows="5" placeholder="Your message" required></textarea>
+                                </div>
+                                <button type="submit" class="w-full bg-primary hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Key Contacts -->
+                <div class="mt-16">
+                    <h2 class="text-3xl font-bold text-center mb-12">Key Contacts</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
+                        <div class="bg-white p-6 rounded-xl shadow-lg text-center border border-gray-200">
+                            <h3 class="font-semibold mb-2">Dr. Deepshikha Sharma</h3>
+                            <p class="text-sm text-primary">Conference Convener</p>
+                            <p class="text-sm text-gray-600">Associate Professor</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-lg text-center border border-gray-200">
+                            <h3 class="font-semibold mb-2">Dr. Aanchal Trehan</h3>
+                            <p class="text-sm text-secondary">Conference Convener</p>
+                            <p class="text-sm text-gray-600">Assistant Professor</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-lg text-center border border-gray-200">
+                            <h3 class="font-semibold mb-2">Mr. Mahboob Anwer</h3>
+                            <p class="text-sm text-accent">Conference Convener</p>
+                            <p class="text-sm text-gray-600">Assistant Professor</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-lg text-center border border-gray-200">
+                            <h3 class="font-semibold mb-2">Mr. Harshwardhan Soni</h3>
+                            <p class="text-sm text-design">Conference Secretary</p>
+                            <p class="text-sm text-gray-600">Assistant Professor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">UC-HDSF 2026</h3>
+                    <p class="text-gray-300 text-sm">
+                        International Conference on Urban Cultures: Heritage, Design & Sustainable Futures
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><button onclick="showPage('home')" class="text-gray-300 hover:text-white transition-colors">Home</button></li>
+                        <li><button onclick="showPage('authors')" class="text-gray-300 hover:text-white transition-colors">Call for Papers</button></li>
+                        <li><button onclick="showPage('speakers')" class="text-gray-300 hover:text-white transition-colors">Speakers</button></li>
+                        <li><button onclick="showPage('registration')" class="text-gray-300 hover:text-white transition-colors">Registration</button></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Important Dates</h4>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li>Abstract: Sep 15, 2025</li>
+                        <li>Full Paper: Oct 15, 2025</li>
+                        <li>Registration: Oct 20, 2025</li>
+                        <li>Conference: Nov 4-5, 2025</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Contact</h4>
+                    <p class="text-gray-300 text-sm">
+                        Email: icdis.2025.muj@gmail.com<br>
+                        Manipal University Jaipur<br>
+                        Rajasthan, India
+                    </p>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
+                <p>&copy; 2025 ICDIS - International Conference on Design, Innovation, and Sustainability. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Navigation functionality
+        function showPage(pageId) {
+            // Hide all pages
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => page.classList.add('hidden'));
+            
+            // Show selected page
+            const targetPage = document.getElementById(pageId + 'Page');
+            if (targetPage) {
+                targetPage.classList.remove('hidden');
+            }
+            
+            // Update navigation active state
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => {
+                link.classList.remove('bg-primary', 'text-white');
+                if (!link.textContent.includes('Register')) {
+                    link.classList.add('text-gray-700');
+                }
+            });
+            
+            // Close mobile menu
+            document.getElementById('mobileMenu').classList.add('hidden');
+            
+            // Scroll to top
+            window.scrollTo(0, 0);
+        }
+
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('hidden');
+        }
+
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', function() {
+            showPage('home');
+        });
+
+        // Form submission handlers (placeholder functionality)
+        document.addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Form submitted! In a real implementation, this would process the form data.');
+            // TODO: Implement actual form submission logic
+        });
+    </script>
+</body>
+</html>

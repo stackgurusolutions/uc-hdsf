@@ -257,11 +257,11 @@ export default function Home() {
               },
               {
                 title: "Camera-Ready Submission",
-                date: "05 OCTOBER 2026",
+                date: "25 SEPTEMBER 2026",
               },
               {
                 title: "Early Bird Registration",
-                date: "05 OCTOBER 2026",
+                date: "25 SEPTEMBER 2026",
               }
             ].map((item, index) => (
 
@@ -634,6 +634,74 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="bg-trustnet-bg-light py-20">
+  <div className="max-w-6xl mx-auto px-6">
+
+
+    {/* Title */}
+    <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
+      VENUE
+      <div className="w-20 h-1 bg-[#B6671D] mx-auto mt-3 rounded-full"></div>
+    </h2>
+
+
+    {/* Description */}
+    <p className="text-gray-700 text-lg leading-relaxed max-w-4xl mx-auto mb-14">
+      The conference will be held at Manipal University Jaipur, a premier
+      institution known for its state-of-the-art facilities and beautiful campus.
+    </p>
+
+
+    {/* Image + Map */}
+    <div className="grid md:grid-cols-2 gap-8 items-center">
+
+
+      {/* Campus Video */}
+<div className="rounded-xl overflow-hidden shadow-lg">
+  <video
+    className="w-full h-80 object-cover transition duration-300"
+    src="/MUJ_Venue.webm"
+    autoPlay
+    loop
+    muted
+    playsInline
+  />
+</div>
+
+      {/* Google Map Embed */}
+      <div className="rounded-xl overflow-hidden shadow-lg">
+        <iframe
+          title="Manipal University Jaipur Location"
+          src="https://www.google.com/maps?q=Manipal+University+Jaipur&output=embed"
+          width="100%"
+          height="320"
+          allowFullScreen=""
+          loading="lazy"
+          className="border-0"
+        ></iframe>
+      </div>
+
+
+    </div>
+
+
+    {/* Address 
+    <div className="mt-10 text-center">
+      <p className="text-lg text-gray-800">
+        <span className="font-semibold">Address:</span> Manipal University Jaipur,
+        Dehmi Kalan, Near GVK Toll Plaza, Jaipur-Ajmer Express Highway,
+        Jaipur, Rajasthan 303007, India
+      </p>
+    </div>*/}
+
+
+  </div>
+</section>
+
+                    
+
+      
     </div>
   );
 }

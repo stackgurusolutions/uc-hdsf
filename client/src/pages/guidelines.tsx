@@ -1,7 +1,7 @@
 import { Calendar, Trophy, BookOpen, FileText, Users } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
-export default function Authors() {
+export default function Guidelines() {
 
   const trackStyles = [
     {
@@ -45,7 +45,7 @@ export default function Authors() {
         <div className="container mx-auto px-4 text-center">
 
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Call for Papers
+            Submission Guidelines
           </h1>
 
           <p className="text-lg md:text-xl text-white max-w-3xl mx-auto leading-relaxed">
@@ -92,7 +92,7 @@ export default function Authors() {
                   </span>
                 </p>
 
-                <div className="grid md:grid-cols-2 gap-8">
+                <div className="grid md:grid-cols-1 gap-8">
 
                   {/* Requirements */}
                   <div className="border border-[#D6D1CB] rounded-lg p-8 bg-[#FAFAFA]">
@@ -111,31 +111,56 @@ export default function Authors() {
 
                     <ul className="space-y-4 text-gray-700">
 
-                      <li className="flex items-start gap-3">
+                   <li className="flex items-start gap-3">
+                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
+                        <span>All abstracts must be written and submitted in English</span>
+                        </li>
+
+                        <li className="flex items-start gap-3">
+                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
+                        <span>Abstracts must be prepared according to the prescribed template (Word/PDF)</span>
+                        </li>
+
+                             <li className="flex items-start gap-3">
+                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span> <span>Abstract length should be between 250–300 words excluding title, keywords, paper type, and references</span>
+                        </li>
+
+                        <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
                         <span>Original and unpublished research work</span>
-                      </li>
+                        </li>
 
-                      <li className="flex items-start gap-3">
+                        <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>High-quality academic and scholarly content</span>
-                      </li>
+                        <span>All submissions will undergo review by the technical committee</span>
+                        </li>
 
-                      <li className="flex items-start gap-3">
+                        <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>Compliance with conference formatting guidelines</span>
-                      </li>
+                        <span>Accepted abstracts will be scheduled for oral presentation during the conference</span>
+                        </li>
 
-                      <li className="flex items-start gap-3">
+                        <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>All submissions undergo peer review</span>
-                      </li>
+                        <span>Authors seeking indexed publication must submit a full-length manuscript for peer review</span>
+                        </li>
+
+                        <li className="flex items-start gap-3">
+                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
+                        <span>The final decision regarding acceptance, revision, or rejection will be based on reviewers’ recommendations</span>
+                        </li>
+
+                        <li className="flex items-start gap-3">
+                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
+                        <span>At least one author of each accepted paper/abstract must register for the conference</span>
+                        </li>
+
 
                     </ul>
 
                   </div>
 
-                  {/* Formats */}
+                  {/* Formats 
                   <div className="border border-[#D6D1CB] rounded-lg p-8 bg-[#FAFAFA]">
 
                     <div className="flex items-center gap-3 mb-6">
@@ -174,114 +199,24 @@ export default function Authors() {
 
                     </ul>
 
-                  </div>
+                  </div>*/}
 
                 </div>
+
+                <div className="flex flex-wrap gap-4 justify-center pt-4">
+                <a
+          href="/Abstract.docx"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-white border-2 border-trustnet-primary text-trustnet-primary px-8 py-4 rounded-full font-semibold hover:bg-trustnet-bg transition"
+        >
+          Download Abstract Template
+        </a>
+      </div>
 
               </CardContent>
 
             </Card>
-
-            {/* Research Topics */}
-            <div>
-
-              <div className="text-center mb-14">
-
-                <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
-                  Research Tracks
-                </h2>
-
-                <div className="w-20 h-[2px] bg-black mx-auto"></div>
-
-              </div>
-
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-                {[
-                  {
-                    title: "Heritage and Urbanism",
-                    items: [
-                      "Vernacular architecture and traditional knowledge systems",
-                      "Urban heritage conservation and regeneration",
-                      "Cultural landscapes and historic urban typologies",
-                      "Folklore, spatial memory, and placemaking",
-                    ],
-                  },
-                  {
-                    title: "Craft and Material Cultures",
-                    items: [
-                      "Material heritage and innovation",
-                      "Vernacular interiors and spatial traditions",
-                      "Craft clusters and artisan ecosystems",
-                      "Craft revival and industry collaboration",
-                      "Biophilic design and adaptive reuse",
-                    ],
-                  },
-                  {
-                    title: "Fashion, Textile & Cultural Heritage",
-                    items: [
-                      "Traditional textile and fashion aesthetics",
-                      "Dress narratives and cultural identity",
-                      "Folklore in textile craft",
-                      "Heritage conservation and indigenous clothing",
-                      "Cross-cultural fashion narratives",
-                    ],
-                  },
-                  {
-                    title: "Human-Centred Design & Well-being",
-                    items: [
-                      "Anthropometry and vernacular ergonomics",
-                      "Inclusive and culturally responsive design",
-                      "Neuroaesthetics and spatial perception",
-                      "Healing and restorative environments",
-                    ],
-                  },
-                  {
-                    title: "Sustainable Technologies & Innovation",
-                    items: [
-                      "Digital heritage documentation and preservation",
-                      "AI, parametric design, and AR/VR applications",
-                      "Circular design and traditional knowledge systems",
-                      "Sustainable materials and smart textiles",
-                      "Zero-waste practices and resilient built environments",
-                    ],
-                  },
-                ].map((track, index) => (
-
-                  <Card
-                    key={index}
-                    className={`${trackStyles[index].bg} ${trackStyles[index].border} border shadow-sm rounded-xl`}
-                  >
-
-                    <CardContent className="p-8">
-
-                      <h3
-                        className={`text-xl font-semibold mb-5 flex items-center gap-2 ${trackStyles[index].text}`}
-                      >
-                        <span>{trackStyles[index].icon}</span>
-                        {track.title}
-                      </h3>
-
-                      <ul className="space-y-3 text-sm text-[#1B1410] leading-relaxed">
-
-                        {track.items.map((item, i) => (
-                          <li key={i} className="flex items-start gap-3">
-                            <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                            <span>{item}</span>
-                          </li>
-                        ))}
-
-                      </ul>
-
-                    </CardContent>
-
-                  </Card>
-                ))}
-
-              </div>
-
-            </div>
-
             {/* Publication */}
             <Card className="mt-16 bg-[#FAFAFA] border border-[#D6D1CB] shadow-sm rounded-xl">
 
@@ -315,6 +250,25 @@ export default function Authors() {
                   </div>
 
                 </div> */}
+
+              </CardContent>
+
+            </Card>
+
+             {/* Publication */}
+            <Card className="mt-16 bg-[#FAFAFA] border border-[#D6D1CB] shadow-sm rounded-xl">
+
+              <CardContent className="p-10">
+
+                <h2 className="text-3xl font-bold text-black mb-6">
+                  CMT Acknowledgment
+                </h2>
+
+                <div className="w-20 h-[2px] bg-black mb-8"></div>
+
+                <p className="text-gray-700 leading-relaxed text-lg mb-8">
+                 The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.  </p>
+             
 
               </CardContent>
 

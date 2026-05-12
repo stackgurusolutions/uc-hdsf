@@ -17,9 +17,9 @@ export default function Navigation() {
 
   const navItems = [
     { path: "/", label: "Home" },
-    { path: "/authors", label: "Call for Papers" },
+    { path: "/callforpaper", label: "Call for Papers" },
     { path: "/#speakers", label: "Speakers", isHash: true },
-    // { path: "/contact", label: "Contact" },
+     { path: "/guidelines", label: "Information" },
   ];
 
   // ONLY organizing committee for now

@@ -6,7 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
 import Home from "@/pages/home";
-import Authors from "@/pages/authors";
+import Authors from "@/pages/callforpaper";
 import Speakers from "@/pages/speakers";
 import orgnizingcommittee from "@/pages/orgnizingcommittee";
 import AdvisoryCommittee from "@/pages/advisory-committee";
@@ -14,13 +14,16 @@ import tpcCommittee from "@/pages/technical-program-committee";
 import Registration from "@/pages/registration";
 import Contact from "@/pages/contact";
 import NotFound from "@/pages/not-found";
+import Guidelines from "./pages/guidelines";
+import CallForPapers from "@/pages/callforpaper";
 
 function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
-      <Route path="/authors" component={Authors} />
+      <Route path="/callforpaper" component={CallForPapers} />
       <Route path="/speakers" component={Speakers} />
+      <Route path="/guidelines" component={Guidelines} />
       <Route path="/orgnizingcommittee" component={orgnizingcommittee} />
       <Route path="/advisory-committee" component={AdvisoryCommittee} />
       <Route path="/technical-program-committee" component={tpcCommittee} />

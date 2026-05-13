@@ -1,6 +1,8 @@
 import { Link } from "wouter";
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import ImageSlider from "../components/ImageSlider";
 
 import {
   Calendar,
@@ -411,7 +413,7 @@ export default function Home() {
             <CardContent className="p-8">
               <h2 className="text-2xl font-bold mb-4">Publication and Indexing</h2>
               <p className="text-gray-700 mb-4">
-                All selected papers will be published in Springer (Scopus-indexed) book series under the proposed title: Urban Cultures- Heritage, Design & Sustainable Futures (ISBN subject to approval).
+                All selected papers will be published in Springer (Scopus-indexed) book series under the proposed title: Urban Cultures- Heritage, Design & Sustainable Futures.
                 <br />A limited number of high-quality papers will be considered for a special issue in TEXTILE: Cloth and Culture (Taylor & Francis, Scopus Q2).
                 Extended versions will be required for journal consideration.
                 All submissions will undergo double-blind peer review.
@@ -634,6 +636,24 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+
+      <section className="bg-trustnet-bg-light py-20">
+  <div className="max-w-6xl mx-auto px-6">
+<h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
+
+
+      ABOUT JAIPUR
+      <div className="w-20 h-1 bg-[#B6671D] mx-auto mt-3 rounded-full"></div>
+    </h2>
+
+
+
+
+      <ImageSlider />
+      </div>
+</section>
+{/* ================= MOVING IMAGE SLIDER ================= */}
 
       <section className="bg-trustnet-bg-light py-20">
   <div className="max-w-6xl mx-auto px-6">

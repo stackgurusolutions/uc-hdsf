@@ -228,8 +228,8 @@ export default function Guidelines() {
 
                 <div className="w-20 h-[2px] bg-black mb-8"></div>
 
-                <p className="text-gray-700 leading-relaxed text-lg mb-8">
-                 All selected papers will be published in Springer (Scopus-indexed) book series under the proposed title: Urban Cultures- Heritage, Design & Sustainable Futures (ISBN subject to approval).
+                <p className="text-gray-700 leading-relaxed text-base mb-8">
+                 All selected papers will be published in Springer (Scopus-indexed) book series under the proposed title: Urban Cultures- Heritage, Design & Sustainable Futures.
                   <br/>A limited number of high-quality papers will be considered for a special issue in TEXTILE: Cloth and Culture (Taylor & Francis, Scopus Q2). Extended versions will be required for journal consideration. All submissions will undergo double-blind peer review.
                 </p>
               <img
@@ -260,15 +260,18 @@ export default function Guidelines() {
 
               <CardContent className="p-10">
 
-                <h2 className="text-3xl font-bold text-black mb-6">
-                  CMT Acknowledgment
-                </h2>
+                            <h2 className="text-2xl font-bold text-black mb-4">
+              CMT Acknowledgment
+            </h2>
 
-                <div className="w-20 h-[2px] bg-black mb-8"></div>
+            <div className="w-16 h-[2px] bg-black mb-6"></div>
 
-                <p className="text-gray-700 leading-relaxed text-lg mb-8">
-                 The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.  </p>
-             
+           <p className="text-gray-700 text-sm leading-6 mb-6">
+  The Microsoft CMT service was used for managing the peer-reviewing process
+  for this conference. This service was provided for free by Microsoft and
+  they bore all expenses, including costs for Azure cloud services as well as
+  for software development and support.
+</p>
 
               </CardContent>
 

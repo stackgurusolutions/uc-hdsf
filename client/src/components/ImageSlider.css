@@ -1,0 +1,15 @@
+.force-slider {
+  display: flex;
+  width: max-content;
+  animation: scrollSlider 30s linear infinite;
+}
+
+@keyframes scrollSlider {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}

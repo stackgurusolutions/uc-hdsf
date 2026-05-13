@@ -82,87 +82,188 @@ export default function Registration() {
                   <h2 className="text-3xl font-bold text-center mb-12">Registration Fees</h2>
 
                   <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
-                    
-                    {/* Students / Researchers */}
-                    <Card className="bg-gradient-to-br from-design/10 to-pink-50 shadow-lg border border-design/20">
-                      <CardContent className="p-6 text-center">
-                        <div className="text-3xl mb-4"></div>
-                        <h3 className="text-xl font-bold mb-4">Students / Researchers</h3>
-                        <div className="space-y-2">
-                          <div className="text-2xl font-bold text-design">₹5,000</div>
-                          <div className="text-lg text-gray-600">USD $75</div>
-                        </div>
-                        <ul className="text-sm text-gray-600 mt-4 space-y-1">
-                          <li>• Conference access</li>
-                          <li>• Presentation opportunity</li>
-                          <li>• Conference kit</li>
-                          <li>• Lunch & refreshments</li>
-                        </ul>
-                      </CardContent>
-                    </Card>
 
-                    {/* Academicians */}
-                    <Card className="bg-gradient-to-br from-innovation/10 to-blue-50 shadow-lg border border-innovation/20">
-                      <CardContent className="p-6 text-center">
-                        <div className="text-3xl mb-4"></div>
-                        <h3 className="text-xl font-bold mb-4">Academicians</h3>
-                        <div className="space-y-2">
-                          <div className="text-2xl font-bold text-innovation">₹6,000</div>
-                          <div className="text-lg text-gray-600">USD $85</div>
-                        </div>
-                        <ul className="text-sm text-gray-600 mt-4 space-y-1">
-                          <li>• Conference access</li>
-                          <li>• Presentation opportunity</li>
-                          <li>• Conference kit</li>
-                          <li>• Lunch & refreshments</li>
-                        </ul>
-                      </CardContent>
-                    </Card>
+  {/* Students / Researchers */}
+  <Card className="bg-gradient-to-br from-design/10 to-pink-50 shadow-lg border border-design/20">
+    <CardContent className="p-6 text-center">
+      <h3 className="text-xl font-bold mb-5">Students / Researchers</h3>
 
-                    {/* Industry */}
-                    <Card className="bg-gradient-to-br from-sustainability/10 to-green-50 shadow-lg border border-sustainability/20">
-                      <CardContent className="p-6 text-center">
-                        <div className="text-3xl mb-4"></div>
-                        <h3 className="text-xl font-bold mb-4">Industry Participants</h3>
-                        <div className="space-y-2">
-                          <div className="text-2xl font-bold text-sustainability">₹6,000</div>
-                          <div className="text-lg text-gray-600">USD $85</div>
-                        </div>
-                        <ul className="text-sm text-gray-600 mt-4 space-y-1">
-                          <li>• Conference access</li>
-                          <li>• Networking sessions</li>
-                          <li>• Conference kit</li>
-                          <li>• Lunch & refreshments</li>
-                        </ul>
-                      </CardContent>
-                    </Card>
+      <div className="space-y-3">
+        
+        {/* Indian Participants */}
+        <div>
+          <p className="text-xs uppercase tracking-wide text-gray-500 mb-1">
+            Indian Participants
+          </p>
+          <div
+            className="text-2xl font-bold"
+            style={{ color: "#B64A2F" }}
+          >
+            ₹5,000
+          </div>
+        </div>
 
-                    {/* Attendee */}
-                    <Card className="bg-gradient-to-br from-accent/10 to-orange-50 shadow-lg border border-accent/20">
-                      <CardContent className="p-6 text-center">
-                        <div className="text-3xl mb-4"></div>
-                        <h3 className="text-xl font-bold mb-4">Attendee Only</h3>
-                        <div className="space-y-2">
-                          <div className="text-2xl font-bold text-accent">₹2,500</div>
-                          <div className="text-lg text-gray-600">USD $30</div>
-                        </div>
-                        <ul className="text-sm text-gray-600 mt-4 space-y-1">
-                          <li>• Conference access</li>
-                          <li>• Conference kit</li>
-                          <li>• Lunch & refreshments</li>
-                          <li className="text-gray-400">• No presentation</li>
-                        </ul>
-                      </CardContent>
-                    </Card>
+        {/* Foreign Participants */}
+        <div>
+          <p className="text-xs uppercase tracking-wide text-gray-500 mb-1">
+            Foreign Participants
+          </p>
+          <div className="text-lg font-semibold text-gray-700">
+            USD $75
+          </div>
+        </div>
 
-                  </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  {/* Academicians */}
+  <Card className="bg-gradient-to-br from-innovation/10 to-blue-50 shadow-lg border border-innovation/20">
+    <CardContent className="p-6 text-center">
+      <h3 className="text-xl font-bold mb-5">Academicians</h3>
+
+      <div className="space-y-3">
+        <div>
+          <p className="text-xs uppercase tracking-wide text-gray-500 mb-1">
+            Indian Participants
+          </p>
+          <div
+            className="text-2xl font-bold"
+            style={{ color: "#B64A2F" }}
+          >
+            ₹6,000
+          </div>
+        </div>
+
+        <div>
+          <p className="text-xs uppercase tracking-wide text-gray-500 mb-1">
+            Foreign Participants
+          </p>
+          <div className="text-lg font-semibold text-gray-700">
+            USD $85
+          </div>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  {/* Industry */}
+  <Card className="bg-gradient-to-br from-sustainability/10 to-green-50 shadow-lg border border-sustainability/20">
+    <CardContent className="p-6 text-center">
+      <h3 className="text-xl font-bold mb-5">Industry Participants</h3>
+
+      <div className="space-y-3">
+        <div>
+          <p className="text-xs uppercase tracking-wide text-gray-500 mb-1">
+            Indian Participants
+          </p>
+          <div
+            className="text-2xl font-bold"
+            style={{ color: "#B64A2F" }}
+          >
+            ₹6,000
+          </div>
+        </div>
+
+        <div>
+          <p className="text-xs uppercase tracking-wide text-gray-500 mb-1">
+            Foreign Participants
+          </p>
+          <div className="text-lg font-semibold text-gray-700">
+            USD $85
+          </div>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  {/* Attendee */}
+  <Card className="bg-gradient-to-br from-accent/10 to-orange-50 shadow-lg border border-accent/20">
+    <CardContent className="p-6 text-center">
+      <h3 className="text-xl font-bold mb-5">Attendee Only</h3>
+
+      <div className="space-y-3">
+        <div>
+          <p className="text-xs uppercase tracking-wide text-gray-500 mb-1">
+            Indian Participants
+          </p>
+          <div
+            className="text-2xl font-bold"
+            style={{ color: "#B64A2F" }}
+          >
+            ₹2,500
+          </div>
+        </div>
+
+        <div>
+          <p className="text-xs uppercase tracking-wide text-gray-500 mb-1">
+            Foreign Participants
+          </p>
+          <div className="text-lg font-semibold text-gray-700">
+            USD $30
+          </div>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+</div>
 
                   {/* Updated Deadline */}
-                  <div className="text-center mt-8">
-                    <p className="text-lg text-red-600 font-semibold">
-                      Early Bird Registration Deadline: October 05, 2026
-                    </p>
-                  </div>
+                 <div className="mt-8 max-w-5xl mx-auto">
+  <h2 className="text-xl font-bold text-center mb-5 text-blue-700">
+    Important Instructions
+  </h2>
+
+  <div className="bg-white shadow-md rounded-xl p-5 border border-gray-200">
+    <ul className="space-y-3 text-gray-700 text-sm leading-6 list-disc pl-5">
+      <li>
+        For successful registration, at least one author should register before the deadline.
+      </li>
+
+      <li>
+        The registration fee includes conference participation, meals, and conference materials.
+      </li>
+
+      <li>
+        Participants are responsible for arranging and bearing their own expenses for travel and accommodation.
+      </li>
+
+     {/*  <li>
+        Manuscripts should be between <span className="font-semibold">10–20 pages</span> in Springer format.
+        We do not encourage short papers (below 10 pages).
+      </li> */}
+
+     {/*  <li>
+        There is <span className="font-semibold text-green-600">no publication fee</span>.
+        We do not charge for extra pages.
+      </li> */}
+
+      <li>
+        After completing the payment, please save the transaction ID and payment confirmation screenshot,
+        as both are required during the registration process.
+      </li>
+
+      <li>
+        A certificate of paper presentation will be issued after successful registration and presentation
+        of the paper.
+      </li>
+
+      <li>
+        Upon confirmation of registration, the corresponding author will receive a publishing agreement
+        via email. The signed and scanned copy of this agreement must be submitted as per the instructions
+        provided in the email.
+      </li>
+    </ul>
+  </div>
+
+ {/*  <div className="text-center mt-5">
+    <p className="text-sm text-red-600 font-semibold">
+      Early Bird Registration Deadline: October 05, 2026
+    </p>
+  </div> */}
+</div>
+  
                 </div>
 
                  

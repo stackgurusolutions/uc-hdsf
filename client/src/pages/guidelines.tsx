@@ -113,48 +113,27 @@ export default function Guidelines() {
 
                    <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>All abstracts must be written and submitted in English</span>
+                        <span>All abstracts must be written and submitted in English.</span>
                         </li>
 
                         <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>Abstracts must be prepared according to the prescribed template (Word/PDF)</span>
+                        <span>Abstracts must be prepared according to the prescribed template (Word/PDF), which can be downloaded from the website. </span>
                         </li>
 
-                             <li className="flex items-start gap-3">
-                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span> <span>Abstract length should be between 250–300 words excluding title, keywords, paper type, and references</span>
+                        <li className="flex items-start gap-3">
+                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span> <span>Abstract length should be between 200 words excluding title, keywords, paper type, and references.</span>
                         </li>
 
                         <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>Original and unpublished research work</span>
+                        <span>Submissions must be original and unpublished research work.</span>
                         </li>
 
                         <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>All submissions will undergo review by the technical committee</span>
+                        <span>All submissions will undergo review by the technical committee.</span>
                         </li>
-
-                        <li className="flex items-start gap-3">
-                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>Accepted abstracts will be scheduled for oral presentation during the conference</span>
-                        </li>
-
-                        <li className="flex items-start gap-3">
-                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>Authors seeking indexed publication must submit a full-length manuscript for peer review</span>
-                        </li>
-
-                        <li className="flex items-start gap-3">
-                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>The final decision regarding acceptance, revision, or rejection will be based on reviewers’ recommendations</span>
-                        </li>
-
-                        <li className="flex items-start gap-3">
-                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>At least one author of each accepted paper/abstract must register for the conference</span>
-                        </li>
-
 
                     </ul>
 
@@ -211,6 +190,14 @@ export default function Guidelines() {
           className="bg-white border-2 border-trustnet-primary text-trustnet-primary px-8 py-4 rounded-full font-semibold hover:bg-trustnet-bg transition"
         >
           Download Abstract Template
+        </a>
+              <a
+          href="https://cmt3.research.microsoft.com/UCHDSF2026"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-white border-2 border-trustnet-primary text-trustnet-primary px-8 py-4 rounded-full font-semibold hover:bg-trustnet-bg transition"
+        >
+          Abstract Submission Portal
         </a>
       </div>
 

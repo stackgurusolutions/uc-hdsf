@@ -12,9 +12,10 @@ import richaJagatramka from "@assets/image_1755327339690.png";
 import deepshikhaSharma from "@assets/image_1755327418005.png";
 import aanchalTrehan from "@assets/image_1755327441919.png";
 import mahboobAnwer from "@assets/image_1755327458839.png";
+import aanchal from "@assets/604.jpg";
 
-import pratibha from "@assets/pratiba.jpg"
-import snehSingh from "@assets/68.jpg"
+import pratibha from "@assets/pratiba1.jpeg";
+import snehSingh from "@assets/68.jpg";
 
 import ning from "@assets/619.jpg"
 
@@ -126,7 +127,7 @@ export default function orgnizingcommittee() {
                       className="w-24 h-24 rounded-full mx-auto mb-4 object-cover border-2 border-design/20 shadow-md" 
                     />
                     <h3 className="font-bold mb-2">Dr. Kuldeep Sangwan</h3>
-                    <p className="text-design font-semibold">Dean,FoSTA</p>
+                    <p className="text-accent font-semibold">Dean,FoSTA</p>
                     <p className="text-sm text-gray-600">Manipal University Jaipur</p>
                   </CardContent>
                 </Card>
@@ -138,7 +139,7 @@ export default function orgnizingcommittee() {
                       className="w-24 h-24 rounded-full mx-auto mb-4 object-cover border-2 border-innovation/20 shadow-md" 
                     />
                     <h3 className="font-bold mb-2">Dr. Pooja Lalit Kumar </h3>
-                    <p className="text-innovation font-semibold">Director</p>
+                    <p className="text-accent font-semibold">Director</p>
                     <p className="text-sm text-gray-600">School of Architecture and Design</p>
                   </CardContent>
                 </Card>
@@ -150,7 +151,7 @@ export default function orgnizingcommittee() {
                       className="w-24 h-24 rounded-full mx-auto mb-4 object-cover border-2 border-sustainability/20 shadow-md" 
                     />
                     <h3 className="font-bold mb-2">Dr. Pratibha Mishra </h3>
-                    <p className="text-sustainability font-semibold">Head</p>
+                    <p className="text-accent font-semibold">Head</p>
                     <p className="text-sm text-gray-600">Department of Fashion Design & Interior Design</p>
                   </CardContent>
                 </Card>
@@ -164,88 +165,111 @@ export default function orgnizingcommittee() {
                 <CardContent className="p-8">
                   <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {/* Conveners */}
-                    <div className="md:col-span-2 lg:col-span-4 mb-6">
-                      <h3 className="text-xl font-bold mb-4 text-center">Conference Conveners</h3>
-                      <div className="grid md:grid-cols-3 gap-4">
-                        <Card>
-                          <CardContent className="p-4 text-center">
-                            <img 
-                              src={deepshikhaSharma} 
-                              alt="Dr. Deepshikha Sharma" 
-                              className="w-20 h-20 rounded-full mx-auto mb-3 object-cover border-2 border-primary/20 shadow-md" 
-                            />
-                            <h4 className="font-semibold">Dr. Deepshikha Sharma</h4>
-                            <p className="text-sm text-primary">Department of Fashion Design</p>
-                          </CardContent>
-                        </Card>
-                       
-                        <Card>
-                          <CardContent className="p-4 text-center">
-                            <img 
-                              src={snehSingh} 
-                              alt="Dr Sneh Singhr" 
-                              className="w-20 h-20 rounded-full mx-auto mb-3 object-cover border-2 border-primary/20 shadow-md" 
-                            />
-                            <h4 className="font-semibold">Dr. Sneh Singh</h4>
-                            <p className="text-sm text-primary">Department of Interior Design</p>
-                          </CardContent>
-                        </Card>
-                      </div>
-                    </div>
+                   <div className="md:col-span-2 lg:col-span-4 mb-6">
+  <h3 className="text-xl font-bold mb-4 text-center">
+    Conference Conveners
+  </h3>
+
+  <div className="grid md:grid-cols-2 gap-4 justify-center max-w-2xl mx-auto">
+    
+    <Card>
+      <CardContent className="p-4 text-center">
+        <img
+          src={deepshikhaSharma}
+          alt="Dr. Deepshikha Sharma"
+          className="w-20 h-20 rounded-full mx-auto mb-3 object-cover border-2 border-primary/20 shadow-md"
+        />
+        <h4 className="font-semibold">Dr. Deepshikha Sharma</h4>
+        <p className="text-sm text-primary">
+          Department of Fashion Design
+        </p>
+      </CardContent>
+    </Card>
+
+    <Card>
+      <CardContent className="p-4 text-center">
+        <img
+          src={snehSingh}
+          alt="Dr Sneh Singh"
+          className="w-20 h-20 rounded-full mx-auto mb-3 object-cover border-2 border-primary/20 shadow-md"
+        />
+        <h4 className="font-semibold">Dr. Sneh Singh</h4>
+        <p className="text-sm text-primary">
+          Department of Interior Design
+        </p>
+      </CardContent>
+    </Card>
+
+  </div>
+</div>
                     
                     {/* Secretary */}
 
                     <div className="md:col-span-2 lg:col-span-4 mb-6">
-                      <h3 className="text-xl font-bold mb-4 text-center">Organizing Secretary(s)</h3>
-                      <div className="grid md:grid-cols-3 gap-4">
+  <h3 className="text-xl font-bold mb-4 text-center">
+    Organizing Secretary(s)
+  </h3>
 
-                         <Card>
-                          <CardContent className="p-4 text-center">
-                            <img 
-                              src={mahboobAnwer} 
-                              alt="Mr. Mahboob Anwer" 
-                              className="w-20 h-20 rounded-full mx-auto mb-3 object-cover border-2 border-primary/20 shadow-md" 
-                            />
-                            <h4 className="font-semibold">Mr. Mahboob Anwer</h4>
-                            <p className="text-sm text-primary">Department of Fashion Design</p>
-                          </CardContent>
-                        </Card>
-                          <Card>
-                          <CardContent className="p-4 text-center">
-                            <img 
-                              src={barsa} 
-                              alt="Ms. Barsa Mohanty" 
-                              className="w-20 h-20 rounded-full mx-auto mb-3 object-cover border-2 border-primary/20 shadow-md" 
-                            />
-                            <h4 className="font-semibold">Ms. Barsa Mohanty</h4>
-                            <p className="text-sm text-primary">Department of Interior Design</p>
-                          </CardContent>
-                        </Card>
-                        <Card>
-                          <CardContent className="p-4 text-center">
-                            <img 
-                              src={ning} 
-                              alt="Dr. Deepshikha Sharma" 
-                              className="w-20 h-20 rounded-full mx-auto mb-3 object-cover border-2 border-primary/20 shadow-md" 
-                            />
-                            <h4 className="font-semibold">Mr.Ningthoujam Tondonsana Singh</h4>
-                            <p className="text-sm text-primary">Department of Interior Design</p>
-                          </CardContent>
-                        </Card>
-                       <Card>
-                          <CardContent className="p-4 text-center">
-                            <img 
-                              src={kusum} 
-                              alt="Dr. Deepshikha Sharma" 
-                              className="w-20 h-20 rounded-full mx-auto mb-3 object-cover border-2 border-primary/20 shadow-md" 
-                            />
-                            <h4 className="font-semibold">Dr. Kusum Kanwar</h4>
-                            <p className="text-sm text-primary">Department of Media, Communication and Fine Arts</p>
-                          </CardContent>
-                        </Card>
-                       
-                      </div>
-                    </div>
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+
+    <Card>
+      <CardContent className="p-4 text-center">
+        <img
+          src={mahboobAnwer}
+          alt="Mr. Mahboob Anwer"
+          className="w-20 h-20 rounded-full mx-auto mb-3 object-cover border-2 border-primary/20 shadow-md"
+        />
+        <h4 className="font-semibold">Mr. Mahboob Anwer</h4>
+        <p className="text-sm text-primary">
+          Department of Fashion Design
+        </p>
+      </CardContent>
+    </Card>
+
+    <Card>
+      <CardContent className="p-4 text-center">
+        <img
+          src={barsa}
+          alt="Ms. Barsa Mohanty"
+          className="w-20 h-20 rounded-full mx-auto mb-3 object-cover border-2 border-primary/20 shadow-md"
+        />
+        <h4 className="font-semibold">Ms. Barsa Mohanty</h4>
+        <p className="text-sm text-primary">
+          Department of Interior Design
+        </p>
+      </CardContent>
+    </Card>
+
+    <Card>
+      <CardContent className="p-4 text-center">
+        <img
+          src={aanchal}
+          alt="Dr. Aanchal Trehan"
+          className="w-20 h-20 rounded-full mx-auto mb-3 object-cover border-2 border-primary/20 shadow-md"
+        />
+        <h4 className="font-semibold">Dr. Aanchal Trehan</h4>
+        <p className="text-sm text-primary">
+          Department of Fashion Design
+        </p>
+      </CardContent>
+    </Card>
+
+    <Card>
+      <CardContent className="p-4 text-center">
+        <img
+          src={kusum}
+          alt="Dr. Kusum Kanwar"
+          className="w-20 h-20 rounded-full mx-auto mb-3 object-cover border-2 border-primary/20 shadow-md"
+        />
+        <h4 className="font-semibold">Dr. Kusum Kanwar</h4>
+        <p className="text-sm text-primary">
+          Department of Media, Communication and Fine Arts
+        </p>
+      </CardContent>
+    </Card>
+
+  </div>
+</div>
 
 
                                         
@@ -255,16 +279,17 @@ export default function orgnizingcommittee() {
                       <div className="grid md:grid-cols-2 gap-4">
                         <Card>
                           <CardContent className="p-4">
-                            <h4 className="font-semibold">All Faculty Members</h4>
-                            <p className="text-sm text-gray-600">Department of Interior Design, SA&D, FoSTA</p>
+                            <h4 className="font-semibold">Mr.Ningthoujam Tondonsana Singh
+</h4>
+                            <p className="text-sm text-gray-600">Department of Interior Design</p>
                           </CardContent>
                         </Card>
-                        <Card>
+                        {/* <Card>
                           <CardContent className="p-4">
                             <h4 className="font-semibold">All Faculty Members</h4>
                             <p className="text-sm text-gray-600">Department of Fashion Design, SA&D, FoSTA</p>
                           </CardContent>
-                        </Card>
+                        </Card> */}
                       </div>
                     </div>
                   </div>

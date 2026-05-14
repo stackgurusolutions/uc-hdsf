@@ -105,7 +105,7 @@ export default function Home() {
                     </Button>
                   </Link>
 
-                  <Link href="/authors">
+                  <Link href="/guidelines">
                     <Button
                       className="
                         bg-black/10
@@ -122,7 +122,7 @@ export default function Home() {
                         transition-all
                       "
                     >
-                      Submit Paper
+                      Submit Abstract
                     </Button>
                   </Link>
 

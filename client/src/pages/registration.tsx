@@ -229,10 +229,9 @@ export default function Registration() {
         Participants are responsible for arranging and bearing their own expenses for travel and accommodation.
       </li>
 
-     {/*  <li>
-        Manuscripts should be between <span className="font-semibold">10–20 pages</span> in Springer format.
-        We do not encourage short papers (below 10 pages).
-      </li> */}
+     <li>
+        Co-authors who wish to attend the conference are required to register as attendees.
+      </li> 
 
      {/*  <li>
         There is <span className="font-semibold text-green-600">no publication fee</span>.

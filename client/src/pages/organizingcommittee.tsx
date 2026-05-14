@@ -212,6 +212,20 @@ export default function organizingcommittee() {
 
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
 
+     <Card>
+      <CardContent className="p-4 text-center">
+        <img
+          src={aanchal}
+          alt="Dr. Aanchal Trehan"
+          className="w-20 h-20 rounded-full mx-auto mb-3 object-cover border-2 border-primary/20 shadow-md"
+        />
+        <h4 className="font-semibold">Dr. Aanchal Trehan</h4>
+        <p className="text-sm text-primary">
+          Department of Fashion Design
+        </p>
+      </CardContent>
+    </Card>
+
     <Card>
       <CardContent className="p-4 text-center">
         <img
@@ -240,19 +254,7 @@ export default function organizingcommittee() {
       </CardContent>
     </Card>
 
-    <Card>
-      <CardContent className="p-4 text-center">
-        <img
-          src={aanchal}
-          alt="Dr. Aanchal Trehan"
-          className="w-20 h-20 rounded-full mx-auto mb-3 object-cover border-2 border-primary/20 shadow-md"
-        />
-        <h4 className="font-semibold">Dr. Aanchal Trehan</h4>
-        <p className="text-sm text-primary">
-          Department of Fashion Design
-        </p>
-      </CardContent>
-    </Card>
+   
 
     <Card>
       <CardContent className="p-4 text-center">
@@ -282,6 +284,12 @@ export default function organizingcommittee() {
                             <h4 className="font-semibold">Mr.Ningthoujam Tondonsana Singh
 </h4>
                             <p className="text-sm text-gray-600">Department of Interior Design</p>
+                          </CardContent>
+                        </Card>
+                        <Card>
+                          <CardContent className="p-4">
+                            <h4 className="font-semibold">Mr. Harshwardhan Soni</h4>
+                            <p className="text-sm text-gray-600">Department of Fashion Design</p>
                           </CardContent>
                         </Card>
                         {/* <Card>

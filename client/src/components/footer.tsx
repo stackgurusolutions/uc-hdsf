@@ -20,11 +20,11 @@ export default function Footer() {
         <h4 className="font-semibold mb-4">Quick Links</h4>
         <ul className="space-y-2 text-sm">
           <li><Link href="/" className="text-black-300 hover:text-black transition-colors">Home</Link></li>
-          <li><Link href="/authors" className="text-black-300 hover:text-black transition-colors">Call for Papers</Link></li>
-          <li><Link href="/speakers" className="text-black-300 hover:text-black transition-colors">Speakers</Link></li>
-          <li><Link href="/oranizingcommittee" className="text-black-300 hover:text-black transition-colors">Organizing Committee</Link></li>
-          <li><Link href="/advisory-committee" className="text-black-300 hover:text-black transition-colors">Advisory Committee</Link></li>
-          <li><Link href="/technical-program-committee" className="text-black-300 hover:text-black transition-colors">TPC Committee</Link></li>
+          <li><Link href="/callforpaper" className="text-black-300 hover:text-black transition-colors">Call for Papers</Link></li>
+          <li><Link href="/#speakers" className="text-black-300 hover:text-black transition-colors">Speakers</Link></li>
+          <li><Link href="/organizingcommittee" className="text-black-300 hover:text-black transition-colors">Organizing Committee</Link></li>
+         {/*  <li><Link href="/advisory-committee" className="text-black-300 hover:text-black transition-colors">Advisory Committee</Link></li> 
+          <li><Link href="/technical-program-committee" className="text-black-300 hover:text-black transition-colors">TPC Committee</Link></li>*/}
           <li><Link href="/registration" className="text-black-300 hover:text-black transition-colors">Registration</Link></li>
         </ul>
       </div>

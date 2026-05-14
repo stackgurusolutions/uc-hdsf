@@ -21,7 +21,7 @@ import ning from "@assets/619.jpg"
 
 
 
-export default function orgnizingcommittee() {
+export default function organizingcommittee() {
   return (
     <div>
       {/* Hero Section */}

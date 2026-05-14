@@ -25,7 +25,7 @@ export default function Navigation() {
   // ONLY organizing committee for now
   const committeeItems = [
     {
-      path: "/orgnizingcommittee",
+      path: "/organizingcommittee",
       label: "Organizing Committee",
     },
   ];
@@ -109,7 +109,7 @@ export default function Navigation() {
 
               <Button
                 variant={
-                  location === "/orgnizingcommittee"
+                  location === "/organizingcommittee"
                     ? "default"
                     : "ghost"
                 }
@@ -118,7 +118,7 @@ export default function Navigation() {
                   font-medium
                   flex items-center space-x-1
                   rounded-md
-                  ${location === "/orgnizingcommittee"
+                  ${location === "/organizingcommittee"
                     ? "text-white"
                     : "text-gray-700 hover:text-primary"
                   }
@@ -231,14 +231,14 @@ export default function Navigation() {
 
                 <Button
                   variant={
-                    location === "/orgnizingcommittee"
+                    location === "/organizingcommittee"
                       ? "default"
                       : "ghost"
                   }
                   className={`
                     w-full justify-between
                     font-medium rounded-md
-                    ${location === "/orgnizingcommittee"
+                    ${location === "/organizingcommittee"
                       ? "text-white"
                       : "text-gray-700 hover:text-primary"
                     }

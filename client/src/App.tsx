@@ -3,12 +3,13 @@ import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import ScrollToTop from "@/components/ui/ScrollToTop";
 import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
 import Home from "@/pages/home";
 import Authors from "@/pages/callforpaper";
 import Speakers from "@/pages/speakers";
-import orgnizingcommittee from "@/pages/orgnizingcommittee";
+import organizingcommittee from "@/pages/organizingcommittee";
 import AdvisoryCommittee from "@/pages/advisory-committee";
 import tpcCommittee from "@/pages/technical-program-committee";
 import Registration from "@/pages/registration";
@@ -24,7 +25,7 @@ function Router() {
       <Route path="/callforpaper" component={CallForPapers} />
       <Route path="/speakers" component={Speakers} />
       <Route path="/guidelines" component={Guidelines} />
-      <Route path="/orgnizingcommittee" component={orgnizingcommittee} />
+      <Route path="/organizingcommittee" component={organizingcommittee} />
       <Route path="/advisory-committee" component={AdvisoryCommittee} />
       <Route path="/technical-program-committee" component={tpcCommittee} />
       <Route path="/registration" component={Registration} />
@@ -39,6 +40,7 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <div className="min-h-screen flex flex-col">
+          <ScrollToTop />
           <Navigation />
           <main className="flex-1">
             <Router />

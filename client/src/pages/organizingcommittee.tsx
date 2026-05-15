@@ -292,6 +292,12 @@ export default function organizingcommittee() {
                             <p className="text-sm text-gray-600">Department of Fashion Design</p>
                           </CardContent>
                         </Card>
+                        <Card>
+                          <CardContent className="p-4">
+                            <h4 className="font-semibold">Ar. Kush Jee Kamal</h4>
+                            <p className="text-sm text-gray-600">Department of Interior Design</p>
+                          </CardContent>
+                        </Card>
                         {/* <Card>
                           <CardContent className="p-4">
                             <h4 className="font-semibold">All Faculty Members</h4>

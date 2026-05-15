@@ -33,7 +33,8 @@ export default function Footer() {
       <div>
         <h4 className="font-semibold mb-4">Contact</h4>
         <p className="text-black-300 text-sm leading-relaxed">
-          Email:  uc.hdsf@gmail.com<br/>
+          Email:  deepshikha.sharma@jaipur.manipal.edu<br/>
+                  sneh.singh@jaipur.manipal.edu<br/>
                   Manipal University Jaipur<br/>
           Rajasthan, India
         </p>

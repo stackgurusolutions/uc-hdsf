@@ -126,7 +126,7 @@ export default function organizingcommittee() {
                       alt="Dr. Kuldeep Sangwan" 
                       className="w-24 h-24 rounded-full mx-auto mb-4 object-cover border-2 border-design/20 shadow-md" 
                     />
-                    <h3 className="font-bold mb-2">Dr. Kuldeep Sangwan</h3>
+                    <h3 className="font-bold mb-2">Dr. Kuldip Singh Sangwan</h3>
                     <p className="text-accent font-semibold">Dean,FoSTA</p>
                     <p className="text-sm text-gray-600">Manipal University Jaipur</p>
                   </CardContent>

@@ -41,98 +41,104 @@ export default function Home() {
     <div>
 
       {/* ================= HERO ================= */}
-    <section className="relative h-[60vh] md:h-[75vh] overflow-hidden">
+    <section className="relative overflow-hidden">
 
-  {/* Background Image */}
-  <img
-  src="/landing.jpeg"
-  alt="Conference Banner"
-  className="absolute inset-0 w-full h-full object-contain object-center bg-white"
-/>
+  {/* Desktop Banner */}
+  <div className="hidden md:block relative">
+    <img
+      src="/landing.jpeg"
+      alt="Conference Banner"
+      className="w-full h-auto"
+    />
+  </div>
+
+  {/* Mobile Banner */}
+  <div className="md:hidden relative h-[60vh] overflow-hidden">
+    <img
+      src="/landing.jpeg"
+      alt="Conference Banner"
+      className="absolute inset-0 w-full h-full object-cover object-left"
+    />
+  </div>
 
   {/* Overlay */}
-  <div className="absolute inset-0 bg-black/0" />
+  <div className="absolute inset-0 bg-black/0 z-0" />
 
-  {/* Content Center */}
-            <div className="relative z-10 h-full flex items-center justify-center">
+  {/* Content */}
+  <div className="absolute inset-0 z-10 flex items-center justify-center">
+    <div className="container mx-auto px-4 text-center">
 
-              <div className="container mx-auto px-4 text-center">
+      <p
+        className="
+          text-xl md:text-4xl
+          mb-4
+          text-black
+          leading-tight
+          italic
+          font-semibold
+        "
+        style={{ fontFamily: "Cambria, Georgia, serif" }}
+      >
+        International Conference on
+        <br />
+        <span className="block mt-2">
+          Urban Cultures: Heritage, Design & Sustainable Futures
+        </span>
+      </p>
 
-                <p
-                  className="
-                    text-2xl md:text-4xl
-                    mb-4
-                    text-black
-                    leading-tight
-                    italic
-                    font-semibold
-                  "
-                  style={{ fontFamily: "Cambria, Georgia, serif" }}
-                >
-                  International Conference on
-                  <br />
+      <div className="flex flex-col md:flex-row justify-center items-center gap-6 mb-8 text-black">
 
-                  <span className="block mt-2">
-                    Urban Cultures: Heritage, Design & Sustainable Futures
-                  </span>
-                </p>
+        <div className="flex items-center gap-2">
+          <Calendar className="text-black w-5 h-5" />
+          <span className="font-medium">
+            Oct 22–23, 2026
+          </span>
+        </div>
 
-                <div className="flex flex-col md:flex-row justify-center items-center gap-6 mb-8 text-black">
+        <div className="flex items-center gap-2">
+          <MapPin className="text-black w-5 h-5" />
+          <span className="font-medium">
+            Manipal University Jaipur, India
+          </span>
+        </div>
 
-                  <div className="flex items-center gap-2">
-                    <Calendar className="text-black w-5 h-5" />
+      </div>
 
-                    <span className="text-black font-medium">
-                      Oct 22–23, 2026
-                    </span>
-                  </div>
+      <div className="flex flex-col sm:flex-row justify-center gap-4">
 
-                  <div className="flex items-center gap-2">
-                    <MapPin className="text-black w-5 h-5" />
+        <Link href="/registration">
+          <Button className="bg-[#F59E0B] hover:bg-[#d97706] px-8 py-4 text-lg rounded-full">
+            Register Now
+          </Button>
+        </Link>
 
-                    <span className="text-black font-medium">
-                      Manipal University Jaipur, India
-                    </span>
-                  </div>
+        <Link href="/guidelines">
+          <Button
+            className="
+              bg-black/10
+              text-black
+              border-2
+              border-black
+              hover:bg-white
+              hover:text-black
+              px-8
+              py-4
+              text-lg
+              rounded-full
+              backdrop-blur-sm
+              transition-all
+            "
+          >
+            Submit Abstract
+          </Button>
+        </Link>
 
-                </div>
+      </div>
 
-                <div className="flex flex-col sm:flex-row justify-center gap-4">
+    </div>
+  </div>
 
-                  <Link href="/registration">
-                    <Button className="bg-[#F59E0B] hover:bg-[#d97706] px-8 py-4 text-lg rounded-full">
-                      Register Now
-                    </Button>
-                  </Link>
-
-                  <Link href="/guidelines">
-                    <Button
-                      className="
-                        bg-black/10
-                        text-black
-                        border-2
-                        border-black
-                        hover:bg-white
-                        hover:text-black
-                        px-8
-                        py-4
-                        text-lg
-                        rounded-full
-                        backdrop-blur-sm
-                        transition-all
-                      "
-                    >
-                      Submit Abstract
-                    </Button>
-                  </Link>
-
-                </div>
-
-              </div>
-
-            </div>
-
-          </section>
+</section>
                 
 
       {/* <section className="relative h-[70vh] md:h-[80vh] overflow-hidden">

@@ -217,6 +217,7 @@ export default function Registration() {
 
   <div className="bg-white shadow-md rounded-xl p-5 border border-gray-200">
     <ul className="space-y-3 text-gray-700 text-sm leading-6 list-disc pl-5">
+      <li>Registration will be available only after the acceptance of the full paper. Accepted authors will receive further instructions regarding registration and fee payment.</li>
       <li>
         For successful registration, at least one author should register before the deadline.
       </li>
@@ -253,6 +254,7 @@ export default function Registration() {
         via email. The signed and scanned copy of this agreement must be submitted as per the instructions
         provided in the email.
       </li>
+      <li>Attendee registration will open soon. Please stay tuned for updates.</li>
     </ul>
   </div>
 
@@ -267,7 +269,8 @@ export default function Registration() {
 
                  
 
-          {/* Payment Information */}
+          {/* Payment Information 
+
           <Card className="mt-16 bg-blue-50 max-w-4xl mx-auto">
             <CardContent className="p-8">
               <h2 className="text-2xl font-bold text-center mb-6">Payment Information</h2>
@@ -294,7 +297,7 @@ export default function Registration() {
                 </div>
               </div>
             </CardContent>
-          </Card>
+          </Card>*/}
         </div>
       </section>
     </div>

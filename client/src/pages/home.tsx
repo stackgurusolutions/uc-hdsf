@@ -129,7 +129,7 @@ export default function Home() {
               transition-all
             "
           >
-            Submit Abstract
+            Submit Full Paper
           </Button>
         </Link>
 
@@ -257,7 +257,7 @@ export default function Home() {
               },
               {
                 title: "Full Paper Submission",
-                date: "10 AUGUST 2026",
+                date: "01 AUGUST 2026",
               },
               {
                 title: "Full Paper Decision",
@@ -269,7 +269,7 @@ export default function Home() {
               },
               {
                 title: "Early Bird Registration",
-                date: "25 SEPTEMBER 2026",
+                date: "10 AUGUST 2026",
               }
             ].map((item, index) => (
 

@@ -103,20 +103,6 @@ export default function Guidelines() {
                 <li className="flex items-start gap-3">
                   <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
                   <span>
-                    <strong>Submission Opens:</strong> 26 June 2026.
-                  </span>
-                </li>
-
-                <li className="flex items-start gap-3">
-                  <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                  <span>
-                    <strong>Submission Deadline:</strong> 1 August 2026.
-                  </span>
-                </li>
-
-                <li className="flex items-start gap-3">
-                  <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                  <span>
                     <strong>Template:</strong> Use the manuscript template
                     available on the conference website. Do not modify the
                     prescribed format.
@@ -153,14 +139,6 @@ export default function Guidelines() {
                     At least one author of each accepted paper must register
                     with the full registration fee and present the paper during
                     the conference.
-                  </span>
-                </li>
-
-                <li className="flex items-start gap-3">
-                  <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                  <span>
-                    <strong>Review Decision:</strong> Authors will be notified
-                    by <strong>10 September 2026</strong>.
                   </span>
                 </li>
 

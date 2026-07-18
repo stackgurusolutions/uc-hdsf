@@ -30,6 +30,7 @@ import catherine from "@assets/catherine.png";
 import jay from "@assets/jay.webp";
 import shiv from "@assets/ShivaJi.jpeg"
 import madan from "@assets/Selfie-Madan-Meena.jpg"
+import vinodPhoto from "@assets/vinodPhoto.jpg";
 
 
 import conferenceBg from "@assets/conference_bg.png"; // <-- import the image
@@ -472,7 +473,7 @@ export default function Home() {
                   Keynote Speakers(To be Decided)
                 </h2>
 
-                {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
                   <Card className="shadow-lg">
                     <CardContent className="p-8 text-center">
                       <img
@@ -490,62 +491,17 @@ export default function Home() {
                   <Card className="shadow-lg">
                     <CardContent className="p-8 text-center">
                       <img
-                        src={catherine}
+                        src={vinodPhoto}
                         alt="Prof. Catherine Harper"
                         className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg"
                       />
-                      <h3 className="text-xl font-bold mb-2">Prof. Catherine Harper</h3>
+                      <h3 className="text-xl font-bold mb-2">Dr. Vinod Gupta</h3>
                       <p className="text-gray-600">
-                        Provost & Pro Vice-Chancellor, The British University in Egypt,
-                        Chair Professor of Design, Woxsen University, India<br />
-                        Co-Editor-in-Chief, <em>TEXTILE: Cloth & Culture</em>
+                        Space Design Consultants
                       </p>
                     </CardContent>
                   </Card>
-                  <Card className="shadow-lg">
-                    <CardContent className="p-8 text-center">
-                      <img
-                        src={jay}
-                        alt="Prof. Jay Thakkar"
-                        className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg"
-                      />
-                      <h3 className="text-xl font-bold mb-2">Prof. Jay Thakkar</h3>
-                      <p className="text-gray-600">
-                        Curator, Researcher & Professor<br />
-                        Faculty of Design, CEPT University
-                      </p>
-                    </CardContent>
-                  </Card>
-                  <Card className="shadow-lg">
-                    <CardContent className="p-8 text-center">
-                      <img
-                        src={shiv}
-                        alt="Prof. Shivaji"
-                        className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg"
-                      />
-                      <h3 className="text-xl font-bold mb-2">Prof. Shivaji</h3>
-                      <p className="text-gray-600">
-                        Associate Professor & Head<br />
-                        Department of Design, IIT Hyderabad
-                      </p>
-                    </CardContent>
-                  </Card>
-                  <Card className="shadow-lg">
-                    <CardContent className="p-8 text-center">
-                      <img
-                        src={madan}
-                        alt="Mr. Madan Meena"
-                        className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg"
-                      />
-                      <h3 className="text-xl font-bold mb-2">Mr. Madan Meena</h3>
-                      <p className="text-gray-600">
-                        Director, Adivasi Academy, Tejgadh, Gujarat<br />
-                        Trustee, Bhasha Research & Publication Centre<br />
-                        Executive Member, Kota Heritage Society<br />
-                        Member, Rajasthan Lalit Kala Academy
-                      </p>
-                    </CardContent>
-                  </Card>
+                 
                   <Card className="shadow-lg">
                     <CardContent className="p-8 text-center">
                       <img
@@ -561,7 +517,7 @@ export default function Home() {
                     </CardContent>
                   </Card>
 
-                </div> */}
+                </div> 
               </div>
 
             </div>

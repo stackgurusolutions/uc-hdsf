@@ -32,108 +32,64 @@ export default function Speakers() {
         Keynote Speakers
       </h2>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                  <Card className="shadow-lg">
+                    <CardContent className="p-8 text-center">
+                      <img
+                        src={bharat}
+                        alt="Dr. Bharat Dahiya"
+                        className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg"
+                      />
+                      <h3 className="text-xl font-bold mb-2">Dr. Bharat Dahiya</h3>
+                      <p className="text-gray-600">
+                        Director, Research Center for Sustainable Development and Innovation,
+                        School of Global Studies, Thammasat University, Bangkok
+                      </p>
+                    </CardContent>
+                  </Card>
+                     <Card className="shadow-lg">
+                    <CardContent className="p-8 text-center">
+                      <img
+                        src={jessicaPhoto}
+                        alt="Prof. Jessica Hemmings"
+                        className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg"
+                      />
+                      <h3 className="text-xl font-bold mb-2">Prof. Jessica Hemmings</h3>
+                      <p className="text-gray-600">
+                        Craft, HDK-Valand University of Gothenburg, & Professor, Oslo School of Architecture & Design
+                      </p>
+                    </CardContent>
+                  </Card>
+                  <Card className="shadow-lg">
+                    <CardContent className="p-8 text-center">
+                      <img
+                        src={vinodPhoto}
+                        alt="Prof. Catherine Harper"
+                        className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg"
+                      />
+                      <h3 className="text-xl font-bold mb-2">Dr. Vinod Gupta</h3>
+                      <p className="text-gray-600">
+                        Space Design Consultants
+                      </p>
+                    </CardContent>
+                  </Card>
+                 
+                  <Card className="shadow-lg">
+                    <CardContent className="p-8 text-center">
+                      <img
+                        src={vandanaPhoto}
+                        alt="Prof. Vandana Kabra Bhandari"
+                        className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg"
+                      />
+                      <h3 className="text-xl font-bold mb-2">Prof. Dr. Vandana Kabra Bhandari</h3>
+                      <p className="text-gray-600">
+                        Researcher & Educator<br />
+                        Former Dean, NIFT
+                      </p>
+                    </CardContent>
+                  </Card>
 
-        {/* 1 */}
-        <Card className="shadow-lg">
-          <CardContent className="p-8 text-center">
-             <img 
-              src={bharat} 
-              alt="Dr. Bharat Dahiya" 
-              className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg" 
-            />
-            <h3 className="text-xl font-bold mb-2">Dr. Bharat Dahiya</h3>
-            <p className="text-gray-600">
-              Director, Research Center for Sustainable Development and Innovation,
-              School of Global Studies, Thammasat University, Bangkok
-            </p>
-          </CardContent>
-        </Card>
-
-        {/* 2 */}
-        <Card className="shadow-lg">
-          <CardContent className="p-8 text-center">
-             <img 
-              src={catherine} 
-              alt="Prof. Catherine Harper" 
-              className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg" 
-            />
-            <h3 className="text-xl font-bold mb-2">Prof. Catherine Harper</h3>
-            <p className="text-gray-600">
-              Provost & Pro Vice-Chancellor, The British University in Egypt,
-              Chair Professor of Design, Woxsen University, India<br/>
-              Co-Editor-in-Chief, <em>TEXTILE: Cloth & Culture</em>
-            </p>
-          </CardContent>
-        </Card>
-
-        {/* 3 */}
-        <Card className="shadow-lg">
-          <CardContent className="p-8 text-center">
-             <img 
-              src={jay} 
-              alt="Prof. Jay Thakkar" 
-              className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg" 
-            />
-            <h3 className="text-xl font-bold mb-2">Prof. Jay Thakkar</h3>
-            <p className="text-gray-600">
-              Curator, Researcher & Professor<br/>
-              Faculty of Design, CEPT University
-            </p>
-          </CardContent>
-        </Card>
-
-        {/* 4 */}
-        <Card className="shadow-lg">
-          <CardContent className="p-8 text-center">
-             <img 
-              src={shiv} 
-              alt="Prof. Shivaji" 
-              className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg" 
-            />
-            <h3 className="text-xl font-bold mb-2">Prof. Shivaji</h3>
-            <p className="text-gray-600">
-              Associate Professor & Head<br/>
-              Department of Design, IIT Hyderabad
-            </p>
-          </CardContent>
-        </Card>
-
-        {/* 5 */}
-        <Card className="shadow-lg">
-          <CardContent className="p-8 text-center">
-             <img 
-              src={madan} 
-              alt="Mr. Madan Meena" 
-              className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg" 
-            />
-            <h3 className="text-xl font-bold mb-2">Mr. Madan Meena</h3>
-            <p className="text-gray-600">
-              Director, Adivasi Academy, Tejgadh, Gujarat<br/>
-              Trustee, Bhasha Research & Publication Centre<br/>
-              Executive Member, Kota Heritage Society<br/>
-              Member, Rajasthan Lalit Kala Academy
-            </p>
-          </CardContent>
-        </Card>
-
-        {/* 6 (Already exists - keep enhanced) */}
-        <Card className="shadow-lg">
-          <CardContent className="p-8 text-center">
-            <img 
-              src={vandanaPhoto} 
-              alt="Prof. Vandana Kabra Bhandari" 
-              className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg" 
-            />
-            <h3 className="text-xl font-bold mb-2">Prof. Dr. Vandana Kabra Bhandari</h3>
-            <p className="text-gray-600">
-              Researcher & Educator<br/>
-              Former Dean, NIFT
-            </p>
-          </CardContent>
-        </Card>
-
-      </div>
+                </div> 
     </div>
 
   </div>

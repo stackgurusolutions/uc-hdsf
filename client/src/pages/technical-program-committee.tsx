@@ -4,13 +4,20 @@ export default function TechnicalPrgoramCommittee() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-primary to-blue-800 text-white">
+            <section className="py-20 bg-primary border-b border-[#DDD6CE]">
+
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Technical Program Committee</h1>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-            Distinguished experts providing guidance and oversight for ICDIS 2025
+
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+            Technical Program Committee
+          </h1>
+
+          <p className="text-lg md:text-xl text-white max-w-3xl mx-auto leading-relaxed">
+            Distinguished experts providing guidance and oversight for UC-HDSF 2026
           </p>
+
         </div>
+
       </section>
 
 {/* <section className="py-20 bg-white">
@@ -56,207 +63,163 @@ export default function TechnicalPrgoramCommittee() {
       <div className="container mx-auto px-4">
          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Technical Program Committee</h2>
            
-        <div className="space-y-16">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 max-w-7xl mx-auto">
-             <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">Prof. Dr. Guilherme Englert Corrêa Meyer</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Professor & Researcher</p>
-                      <p className="text-gray-600 text-sm">Postgraduate Program in Design (PPG Design), UNISINOS</p>
-                      <p className="text-gray-600 text-sm">Brazil</p>
-                    </CardContent>
-                  </Card>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
 
-                  <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">Prof. Dr. António José de Macedo Coutinho da Cruz Rodrigues</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Director, Master's in Design</p>
-                      <p className="text-gray-600 text-sm">Universidade Lusófona</p>
-                      <p className="text-gray-600 text-sm">Lisbon & Porto, Portugal</p>
-                    </CardContent>
-                  </Card>
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Prof. Dr. Guilherme Englert Corrêa Meyer</h4>
+      <p className="text-sm text-primary">Postgraduate Program in Design (PPG Design), UNISINOS, Brazil</p>
+    </CardContent>
+  </Card>
 
-                  <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">Ingrid Calvo Ivanovic</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Associate Professor</p>
-                      <p className="text-gray-600 text-sm">Design Department, Universidad de Chile</p>
-                      <p className="text-gray-600 text-sm">Chile</p>
-                    </CardContent>
-                  </Card>
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Prof. Dr. António José de Macedo Coutinho da Cruz Rodrigues</h4>
+      <p className="text-sm text-primary">Universidade Lusófona, Lisbon & Porto, Portugal</p>
+    </CardContent>
+  </Card>
 
-                  <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">Dr. Sumit Mandal</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Associate Professor, Textile Science</p>
-                      <p className="text-gray-600 text-sm">Oklahoma State University</p>
-                      <p className="text-gray-600 text-sm">USA</p>
-                    </CardContent>
-                  </Card>
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Ingrid Calvo Ivanovic</h4>
+      <p className="text-sm text-primary">Design Department, Universidad de Chile</p>
+    </CardContent>
+  </Card>
 
-                  <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">Dr. S. Chandrasekaran</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Senior Lecturer, Fine Arts</p>
-                      <p className="text-gray-600 text-sm">University of the Arts Singapore (LASALLE)</p>
-                      <p className="text-gray-600 text-sm">Singapore</p>
-                    </CardContent>
-                  </Card>
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. Sumit Mandal</h4>
+      <p className="text-sm text-primary">Oklahoma State University, USA</p>
+    </CardContent>
+  </Card>
 
-                  <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">António Gorgel Pinto</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Assistant Professor</p>
-                      <p className="text-gray-600 text-sm">IADE Universidade Europeia</p>
-                      <p className="text-gray-600 text-sm">Portugal</p>
-                    </CardContent>
-                  </Card>
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. S. Chandrasekaran</h4>
+      <p className="text-sm text-primary">University of the Arts Singapore (LASALLE)</p>
+    </CardContent>
+  </Card>
 
-                  <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">Dr. Isabel Farinha</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Assistant Professor</p>
-                      <p className="text-gray-600 text-sm">University of Setúbal (ESTSetúbal/IPS)</p>
-                      <p className="text-gray-600 text-sm">Portugal</p>
-                    </CardContent>
-                  </Card>
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">António Gorgel Pinto</h4>
+      <p className="text-sm text-primary">IADE Universidade Europeia, Portugal</p>
+    </CardContent>
+  </Card>
 
-                  <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">António Maneira</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Assistant Professor</p>
-                      <p className="text-gray-600 text-sm">University of Saint Joseph</p>
-                      <p className="text-gray-600 text-sm">Macau</p>
-                    </CardContent>
-                  </Card>
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. Isabel Farinha</h4>
+      <p className="text-sm text-primary">University of Setúbal (ESTSetúbal/IPS), Portugal</p>
+    </CardContent>
+  </Card>
 
-                  <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">Dr. Sanjeevani Ayachit</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Director & Dean</p>
-                      <p className="text-gray-600 text-sm">Symbiosis Institute of Design</p>
-                      <p className="text-gray-600 text-sm">Pune, India</p>
-                    </CardContent>
-                  </Card>
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">António Maneira</h4>
+      <p className="text-sm text-primary">University of Saint Joseph, Macau</p>
+    </CardContent>
+  </Card>
 
-                  <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">Dr. Koshalpreet Kaur</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Dean, School of Design</p>
-                      <p className="text-gray-600 text-sm">Sushant University</p>
-                      <p className="text-gray-600 text-sm">India</p>
-                    </CardContent>
-                  </Card>
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. Sanjeevani Ayachit</h4>
+      <p className="text-sm text-primary">Symbiosis Institute of Design, Pune</p>
+    </CardContent>
+  </Card>
 
-                  <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">Prof. Anirban Chowdhury</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Professor</p>
-                      <p className="text-gray-600 text-sm">Alliance School of Design, Alliance University</p>
-                      <p className="text-gray-600 text-sm">Bangalore, India</p>
-                    </CardContent>
-                  </Card>
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. Koshalpreet Kaur</h4>
+      <p className="text-sm text-primary">School of Design, Sushant University</p>
+    </CardContent>
+  </Card>
 
-                  <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">Dr. Meeta Siddhu</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Director & Associate Professor</p>
-                      <p className="text-gray-600 text-sm">Symbiosis Institute of Design</p>
-                      <p className="text-gray-600 text-sm">Nagpur, India</p>
-                    </CardContent>
-                  </Card>
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Prof. Anirban Chowdhury</h4>
+      <p className="text-sm text-primary">Alliance School of Design, Alliance University</p>
+    </CardContent>
+  </Card>
 
-                  <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">Dr. Saurabh Tewari</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Assistant Professor</p>
-                      <p className="text-gray-600 text-sm">Department of Design, IIT Delhi</p>
-                      <p className="text-gray-600 text-sm">New Delhi, India</p>
-                    </CardContent>
-                  </Card>
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. Meeta Siddhu</h4>
+      <p className="text-sm text-primary">Symbiosis Institute of Design, Nagpur</p>
+    </CardContent>
+  </Card>
 
-                  <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">Prof. Dr. Rena Mehta</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Research Head & Course Coordinator</p>
-                      <p className="text-gray-600 text-sm">Indian Institute of Crafts & Design</p>
-                      <p className="text-gray-600 text-sm">Jaipur, India</p>
-                    </CardContent>
-                  </Card>
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. Saurabh Tewari</h4>
+      <p className="text-sm text-primary">Department of Design, IIT Delhi</p>
+    </CardContent>
+  </Card>
 
-                  <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">Prof. Sherline Pimenta</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Senior Academic Specialist - Design</p>
-                      <p className="text-gray-600 text-sm">FLAME University</p>
-                      <p className="text-gray-600 text-sm">India</p>
-                    </CardContent>
-                  </Card>
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Prof. Dr. Rena Mehta</h4>
+      <p className="text-sm text-primary">Indian Institute of Crafts & Design, Jaipur</p>
+    </CardContent>
+  </Card>
 
-                  <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">Dr. Naveen Kumar</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Associate Professor & HFID Lab Director</p>
-                      <p className="text-gray-600 text-sm">School of Design, Bennett University</p>
-                      <p className="text-gray-600 text-sm">India</p>
-                    </CardContent>
-                  </Card>
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Prof. Sherline Pimenta</h4>
+      <p className="text-sm text-primary">FLAME University</p>
+    </CardContent>
+  </Card>
 
-                  <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">Dr. Diti Vyas</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Associate Professor</p>
-                      <p className="text-gray-600 text-sm">Anant National University</p>
-                      <p className="text-gray-600 text-sm">India</p>
-                    </CardContent>
-                  </Card>
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. Naveen Kumar</h4>
+      <p className="text-sm text-primary">School of Design, Bennett University</p>
+    </CardContent>
+  </Card>
 
-                  <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">Dr. Sadhna</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Associate Professor</p>
-                      <p className="text-gray-600 text-sm">School of Arts & Design, Woxsen University</p>
-                      <p className="text-gray-600 text-sm">India</p>
-                    </CardContent>
-                  </Card>
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. Diti Vyas</h4>
+      <p className="text-sm text-primary">Anant National University</p>
+    </CardContent>
+  </Card>
 
-                  <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">Prof. (Dr.) Rajesh Dangoria</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Dean, School of Design</p>
-                      <p className="text-gray-600 text-sm">Aayojan School of Architecture & Design</p>
-                      <p className="text-gray-600 text-sm">Jaipur, India</p>
-                    </CardContent>
-                  </Card>
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. Sadhna</h4>
+      <p className="text-sm text-primary">School of Arts & Design, Woxsen University</p>
+    </CardContent>
+  </Card>
 
-                  <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">Dr. Jitendra Sharma</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Professor & Dean</p>
-                      <p className="text-gray-600 text-sm">Faculty of Design & Arts, Poornima University</p>
-                      <p className="text-gray-600 text-sm">Jaipur, India</p>
-                    </CardContent>
-                  </Card>
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Prof. (Dr.) Rajesh Dangoria</h4>
+      <p className="text-sm text-primary">Aayojan School of Architecture & Design, Jaipur</p>
+    </CardContent>
+  </Card>
 
-                  <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">Prof. (Dr.) Maulik Shah</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Director, School of Media Studies</p>
-                      <p className="text-gray-600 text-sm">Jaipur National University</p>
-                      <p className="text-gray-600 text-sm">Jaipur, India</p>
-                    </CardContent>
-                  </Card>
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. Jitendra Sharma</h4>
+      <p className="text-sm text-primary">Faculty of Design & Arts, Poornima University</p>
+    </CardContent>
+  </Card>
 
-                  <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
-                    <CardContent className="p-4 text-center">
-                      <h3 className="text-lg font-bold mb-1">Dr. Kalpana Munjal</h3>
-                      <p className="text-blue-600 font-semibold text-sm mb-1">Associate Professor</p>
-                      <p className="text-gray-600 text-sm">Faculty of Design, Vivekananda Global University (VGU)</p>
-                      <p className="text-gray-600 text-sm">Jaipur, India</p>
-                    </CardContent>
-                  </Card>
-          </div>
-        </div>
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Prof. (Dr.) Maulik Shah</h4>
+      <p className="text-sm text-primary">Jaipur National University</p>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. Kalpana Munjal</h4>
+      <p className="text-sm text-primary">Faculty of Design, VGU, Jaipur</p>
+    </CardContent>
+  </Card>
+
+</div>
       </div>
     </section>
 

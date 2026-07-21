@@ -8,7 +8,8 @@ import catherine from "@assets/catherine.png";
 import jay from "@assets/jay.webp";
 import shiv from "@assets/ShivaJi.jpeg"
 import madan from "@assets/Selfie-Madan-Meena.jpg"
-
+import vinodPhoto from "@assets/vinodPhoto.jpg";
+import jessicaPhoto from "@assets/jessicaPhoto.jpg";
 
 
 export default function Speakers() {

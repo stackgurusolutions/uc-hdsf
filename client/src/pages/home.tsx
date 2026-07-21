@@ -22,7 +22,7 @@ import sdg9 from "@assets/E_SDG_PRINT-09.jpg";
 import sdg11 from "@assets/E_SDG_PRINT-11.jpg";
 import sdg12 from "@assets/E_SDG_PRINT-12.jpg";
 import sdg13 from "@assets/E_SDG_PRINT-13.jpg";
-
+import jessicaPhoto from "@assets/jessicaPhoto.jpg";
 import vandanaPhoto from "@assets/vandana.jpg";
 import mujPhoto from "@assets/muj1.jpg";
 import bharat from "@assets/Bharat.jpg";
@@ -485,6 +485,19 @@ export default function Home() {
                       <p className="text-gray-600">
                         Director, Research Center for Sustainable Development and Innovation,
                         School of Global Studies, Thammasat University, Bangkok
+                      </p>
+                    </CardContent>
+                  </Card>
+                     <Card className="shadow-lg">
+                    <CardContent className="p-8 text-center">
+                      <img
+                        src={jessicaPhoto}
+                        alt="Prof. Jessica Hemmings"
+                        className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg"
+                      />
+                      <h3 className="text-xl font-bold mb-2">Prof. Jessica Hemmings</h3>
+                      <p className="text-gray-600">
+                        Craft, HDK-Valand University of Gothenburg, & Professor, Oslo School of Architecture & Design
                       </p>
                     </CardContent>
                   </Card>

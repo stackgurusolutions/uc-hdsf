@@ -20,6 +20,7 @@ export default function Navigation() {
     { path: "/callforpaper", label: "Call for Papers" },
     { path: "/#speakers", label: "Speakers", isHash: true },
      { path: "/guidelines", label: "Information" },
+     { path: "/technical-program-committee", label: "Technical Program Committee" },
   ];
 
   // ONLY organizing committee for now

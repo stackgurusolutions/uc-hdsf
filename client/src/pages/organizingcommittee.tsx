@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import vaitheeswaran from "@assets/image_1755327096372.png";
 import nitiNipunSharma from "@assets/image_1755327134984.png";
-import karunakar from "@assets/image_1755327160450.png";
+import anilrana from "@assets/image/anilrana.jpg";
 import amitSoni from "@assets/image_1755327170741.png";
 import nituBhatnagar from "@assets/image_1755327205249.png";
 import kuldeepSangwan from "@assets/image_1755327253106.png";
@@ -79,11 +79,11 @@ export default function organizingcommittee() {
                 <Card className="shadow-lg border border-gray-200">
                   <CardContent className="p-6 text-center">
                     <img 
-                      src={karunakar} 
-                      alt="Dr. Karunakar A. Kotegar" 
+                      src={anilrana} 
+                      alt="Cmd. (Dr.) Anil Rana" 
                       className="w-24 h-24 rounded-full mx-auto mb-4 object-cover border-2 border-gray-200 shadow-md" 
                     />
-                    <h3 className="font-bold mb-2">Dr. Karunakar A. Kotegar</h3>
+                    <h3 className="font-bold mb-2">Cmd. (Dr.) Anil Rana</h3>
                     <p className="text-accent font-semibold">Pro-President</p>
                     <p className="text-sm text-gray-600">Manipal University Jaipur</p>
                   </CardContent>

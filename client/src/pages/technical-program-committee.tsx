@@ -68,7 +68,7 @@ export default function TechnicalPrgoramCommittee() {
   <Card>
     <CardContent className="p-4 text-center">
       <h4 className="font-semibold">Prof. Dr. Guilherme Englert Corrêa Meyer</h4>
-      <p className="text-sm text-primary">Postgraduate Program in Design (PPG Design), UNISINOS, Brazil</p>
+      <p className="text-sm text-primary">University of Vale do Rio dos Sinos, Brazil </p>
     </CardContent>
   </Card>
 
@@ -89,10 +89,16 @@ export default function TechnicalPrgoramCommittee() {
   <Card>
     <CardContent className="p-4 text-center">
       <h4 className="font-semibold">Dr. Sumit Mandal</h4>
-      <p className="text-sm text-primary">Oklahoma State University, USA</p>
+      <p className="text-sm text-primary">Visual Arts and Design, University of Évora</p>
     </CardContent>
   </Card>
 
+ <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. Paula Reaes Pinto </h4>
+      <p className="text-sm text-primary">Oklahoma State University, USA</p>
+    </CardContent>
+  </Card>
   <Card>
     <CardContent className="p-4 text-center">
       <h4 className="font-semibold">Dr. S. Chandrasekaran</h4>
@@ -114,10 +120,24 @@ export default function TechnicalPrgoramCommittee() {
     </CardContent>
   </Card>
 
+   <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. Vishal Kumar</h4>
+      <p className="text-sm text-primary">Massey University, New Zealand </p>
+    </CardContent>
+  </Card>
+
   <Card>
     <CardContent className="p-4 text-center">
       <h4 className="font-semibold">António Maneira</h4>
       <p className="text-sm text-primary">University of Saint Joseph, Macau</p>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. Ananya Singh</h4>
+      <p className="text-sm text-primary">The University of Texas at Arlington, United States of America </p>
     </CardContent>
   </Card>
 
@@ -151,8 +171,31 @@ export default function TechnicalPrgoramCommittee() {
 
   <Card>
     <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. Shamit Shrivastav</h4>
+      <p className="text-sm text-primary">School of Design, Art, & Performance,
+FLAME University 
+</p>
+    </CardContent>
+  </Card>
+
+   <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. Shanu Raina</h4>
+      <p className="text-sm text-primary">Srishti Manipal Institute of Art, Design and Technology </p>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardContent className="p-4 text-center">
       <h4 className="font-semibold">Dr. Saurabh Tewari</h4>
       <p className="text-sm text-primary">Department of Design, IIT Delhi</p>
+    </CardContent>
+  </Card>
+
+   <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. Mritunjay Kumar</h4>
+      <p className="text-sm text-primary">Indian Institute of Technology Delhi, India </p>
     </CardContent>
   </Card>
 
@@ -160,6 +203,37 @@ export default function TechnicalPrgoramCommittee() {
     <CardContent className="p-4 text-center">
       <h4 className="font-semibold">Prof. Dr. Rena Mehta</h4>
       <p className="text-sm text-primary">Indian Institute of Crafts & Design, Jaipur</p>
+    </CardContent>
+  </Card>
+
+   <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. Farheen Bano</h4>
+      <p className="text-sm text-primary">Dr. A.P.J. Abdul Kalam Technical University, Lucknow </p>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. Swati Dutta </h4>
+      <p className="text-sm text-primary">Amity University Punjab  </p>
+    </CardContent>
+  </Card>
+
+ <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. Saurav Sharma </h4>
+      <p className="text-sm text-primary">Department of Design
+Netaji Subhas University of Technology (NSUT), New Delhi, India 
+  </p>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardContent className="p-4 text-center">
+      <h4 className="font-semibold">Dr. Nanki Nath </h4>
+      <p className="text-sm text-primary">USDI, Guru Gobind Singh Indraprastha University, Delhi  
+  </p>
     </CardContent>
   </Card>
 

@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import vaitheeswaran from "@assets/image_1755327096372.png";
 import nitiNipunSharma from "@assets/image_1755327134984.png";
-import anilrana from "@assets/image/anilrana.jpg";
+import anilrana from "@assets/anilrana.jpg";
 import amitSoni from "@assets/image_1755327170741.png";
 import nituBhatnagar from "@assets/image_1755327205249.png";
 import kuldeepSangwan from "@assets/image_1755327253106.png";

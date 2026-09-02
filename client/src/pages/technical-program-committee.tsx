@@ -99,6 +99,16 @@ export default function TechnicalPrgoramCommittee() {
       <p className="text-sm text-primary">Visual Arts and Design, University of Évora</p>
     </CardContent>
   </Card>
+<Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
+  <CardContent className="p-4 text-center">
+    <h3 className="text-lg font-bold mb-1">Prof. Jay Patel</h3>
+    <p className="text-blue-600 font-semibold text-sm mb-1">
+      Associate Professor & Head, Department of Design
+    </p>
+    <p className="text-gray-600 text-sm">Banasthali Vidyapith</p>
+  </CardContent>
+</Card>
+
   <Card>
     <CardContent className="p-4 text-center">
       <h4 className="font-semibold">Dr. S. Chandrasekaran</h4>

@@ -33,6 +33,8 @@ export default function AdvisoryCommittee() {
     <p className="text-primary font-semibold mb-2">Associate Professor</p>
     <p className="text-gray-600">Department of Design and Merchandising</p>
     <p className="text-gray-600">Oklahoma State University, USA</p>
+
+
   </CardContent>
 </Card>
 

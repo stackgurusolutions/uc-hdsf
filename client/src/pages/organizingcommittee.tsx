@@ -13,6 +13,7 @@ import deepshikhaSharma from "@assets/image_1755327418005.png";
 import aanchalTrehan from "@assets/image_1755327441919.png";
 import mahboobAnwer from "@assets/image_1755327458839.png";
 import aanchal from "@assets/604.jpg";
+import venkatesh from "@assets/venkatesh.jpg";
 
 import pratibha from "@assets/pratiba1.jpeg";
 import snehSingh from "@assets/68.jpg";
@@ -44,11 +45,11 @@ export default function organizingcommittee() {
               <Card className="bg-gradient-to-br from-primary/10 to-blue-50 shadow-lg max-w-md mx-auto">
                 <CardContent className="p-8 text-center">
                   <img 
-                    src={vaitheeswaran} 
-                    alt="Mr. S. Vaitheeswaran" 
+                    src={venkatesh} 
+                    alt="Lt. Gen. (Dr.) M. D. Venkatesh" 
                     className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg" 
                   />
-                  <h3 className="text-xl font-bold mb-2">Mr. S. Vaitheeswaran</h3>
+                  <h3 className="text-xl font-bold mb-2">Lt. Gen. (Dr.) M. D. Venkatesh</h3>
                   <p className="text-primary font-semibold">Chairperson</p>
                   <p className="text-gray-600">Manipal University Jaipur, Rajasthan, India</p>
                 </CardContent>

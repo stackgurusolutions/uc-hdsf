@@ -526,12 +526,6 @@ Netaji Subhas University of Technology (NSUT), New Delhi, India
   </CardContent>
 </Card>
 
-<Card>
-  <CardContent className="p-4 text-center">
-    <h4 className="font-semibold">Prof. Jay Patel</h4>
-    <p className="text-sm text-primary">Banasthali Vidyapith</p>
-  </CardContent>
-</Card>
 
 </div>
       </div>

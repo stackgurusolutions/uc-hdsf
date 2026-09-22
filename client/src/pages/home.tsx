@@ -26,6 +26,8 @@ import jessicaPhoto from "@assets/jessicaPhoto.jpg";
 import vandanaPhoto from "@assets/vandana.jpg";
 import mujPhoto from "@assets/muj1.jpg";
 import bharat from "@assets/Bharat.jpg";
+import imphoto from "@assets/im.jpg";
+
 import catherine from "@assets/catherine.png";
 import jay from "@assets/jay.webp";
 import shiv from "@assets/ShivaJi.jpeg"
@@ -487,7 +489,11 @@ export default function Home() {
                         School of Global Studies, Thammasat University, Bangkok
                       </p>
                     </CardContent>
+
+
                   </Card>
+
+
                      <Card className="shadow-lg">
                     <CardContent className="p-8 text-center">
                       <img
@@ -501,6 +507,23 @@ export default function Home() {
                       </p>
                     </CardContent>
                   </Card>
+
+                   <Card className="shadow-lg">
+                    <CardContent className="p-8 text-center">
+                      <img
+                        src={imphoto}
+                        alt="Mr. Kristian Steinberg "
+                        className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg"
+                      />
+                      <h3 className="text-xl font-bold mb-2">Mr. Kristian Steinberg </h3>
+                      <p className="text-gray-600">
+                        Director, Education at Istituto Marangoni, Mumbai
+                      </p>
+                    </CardContent>
+                  </Card>
+
+
+
                   <Card className="shadow-lg">
                     <CardContent className="p-8 text-center">
                       <img

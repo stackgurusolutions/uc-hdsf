@@ -22,7 +22,7 @@ import sdg9 from "@assets/E_SDG_PRINT-09.jpg";
 import sdg11 from "@assets/E_SDG_PRINT-11.jpg";
 import sdg12 from "@assets/E_SDG_PRINT-12.jpg";
 import sdg13 from "@assets/E_SDG_PRINT-13.jpg";
-
+import jessicaPhoto from "@assets/jessicaPhoto.jpg";
 import vandanaPhoto from "@assets/vandana.jpg";
 import mujPhoto from "@assets/muj1.jpg";
 import bharat from "@assets/Bharat.jpg";
@@ -30,6 +30,7 @@ import catherine from "@assets/catherine.png";
 import jay from "@assets/jay.webp";
 import shiv from "@assets/ShivaJi.jpeg"
 import madan from "@assets/Selfie-Madan-Meena.jpg"
+import vinodPhoto from "@assets/vinodPhoto.jpg";
 
 
 import conferenceBg from "@assets/conference_bg.png"; // <-- import the image
@@ -129,7 +130,7 @@ export default function Home() {
               transition-all
             "
           >
-            Submit Abstract
+            Submit Full Paper
           </Button>
         </Link>
 
@@ -257,19 +258,19 @@ export default function Home() {
               },
               {
                 title: "Full Paper Submission",
-                date: "10 AUGUST 2026",
+                date: "01 AUGUST 2026",
               },
               {
                 title: "Full Paper Decision",
                 date: "10 SEPTEMBER 2026",
               },
-              {
+             /*  {
                 title: "Camera-Ready Submission",
                 date: "25 SEPTEMBER 2026",
-              },
+              }, */
               {
                 title: "Early Bird Registration",
-                date: "25 SEPTEMBER 2026",
+                date: "10 AUGUST 2026",
               }
             ].map((item, index) => (
 
@@ -469,10 +470,10 @@ export default function Home() {
               {/* Keynote Speakers */}
               <div>
                 <h2 className="text-3xl font-bold text-center mb-12">
-                  Keynote Speakers(To be Decided)
+                  Keynote Speakers
                 </h2>
 
-                {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
                   <Card className="shadow-lg">
                     <CardContent className="p-8 text-center">
                       <img
@@ -487,65 +488,33 @@ export default function Home() {
                       </p>
                     </CardContent>
                   </Card>
+                     <Card className="shadow-lg">
+                    <CardContent className="p-8 text-center">
+                      <img
+                        src={jessicaPhoto}
+                        alt="Prof. Jessica Hemmings"
+                        className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg"
+                      />
+                      <h3 className="text-xl font-bold mb-2">Prof. Jessica Hemmings</h3>
+                      <p className="text-gray-600">
+                        Craft, HDK-Valand University of Gothenburg, & Professor, Oslo School of Architecture & Design
+                      </p>
+                    </CardContent>
+                  </Card>
                   <Card className="shadow-lg">
                     <CardContent className="p-8 text-center">
                       <img
-                        src={catherine}
+                        src={vinodPhoto}
                         alt="Prof. Catherine Harper"
                         className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg"
                       />
-                      <h3 className="text-xl font-bold mb-2">Prof. Catherine Harper</h3>
+                      <h3 className="text-xl font-bold mb-2">Dr. Vinod Gupta</h3>
                       <p className="text-gray-600">
-                        Provost & Pro Vice-Chancellor, The British University in Egypt,
-                        Chair Professor of Design, Woxsen University, India<br />
-                        Co-Editor-in-Chief, <em>TEXTILE: Cloth & Culture</em>
+                        Space Design Consultants
                       </p>
                     </CardContent>
                   </Card>
-                  <Card className="shadow-lg">
-                    <CardContent className="p-8 text-center">
-                      <img
-                        src={jay}
-                        alt="Prof. Jay Thakkar"
-                        className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg"
-                      />
-                      <h3 className="text-xl font-bold mb-2">Prof. Jay Thakkar</h3>
-                      <p className="text-gray-600">
-                        Curator, Researcher & Professor<br />
-                        Faculty of Design, CEPT University
-                      </p>
-                    </CardContent>
-                  </Card>
-                  <Card className="shadow-lg">
-                    <CardContent className="p-8 text-center">
-                      <img
-                        src={shiv}
-                        alt="Prof. Shivaji"
-                        className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg"
-                      />
-                      <h3 className="text-xl font-bold mb-2">Prof. Shivaji</h3>
-                      <p className="text-gray-600">
-                        Associate Professor & Head<br />
-                        Department of Design, IIT Hyderabad
-                      </p>
-                    </CardContent>
-                  </Card>
-                  <Card className="shadow-lg">
-                    <CardContent className="p-8 text-center">
-                      <img
-                        src={madan}
-                        alt="Mr. Madan Meena"
-                        className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg"
-                      />
-                      <h3 className="text-xl font-bold mb-2">Mr. Madan Meena</h3>
-                      <p className="text-gray-600">
-                        Director, Adivasi Academy, Tejgadh, Gujarat<br />
-                        Trustee, Bhasha Research & Publication Centre<br />
-                        Executive Member, Kota Heritage Society<br />
-                        Member, Rajasthan Lalit Kala Academy
-                      </p>
-                    </CardContent>
-                  </Card>
+                 
                   <Card className="shadow-lg">
                     <CardContent className="p-8 text-center">
                       <img
@@ -561,7 +530,7 @@ export default function Home() {
                     </CardContent>
                   </Card>
 
-                </div> */}
+                </div> 
               </div>
 
             </div>
@@ -644,6 +613,123 @@ export default function Home() {
       </section>
 
 
+      <section className="py-20 bg-gray-100">
+  <div className="container mx-auto px-4">
+
+   
+    {/* PEOs Section */}
+    <div className="max-w-5xl mx-auto mt-8 bg-white shadow-lg rounded-lg p-8">
+      
+
+      <h3 className="text-2xl font-bold text-slate-700 mb-5">
+         Department of Fashion Design
+      </h3>
+
+      {/* Vision */}
+        <div className="mb-6">
+          <h4 className="text-xl font-bold text-slate-700 mb-3">
+            Vision
+          </h4>
+
+          <p className="text-gray-700 leading-relaxed text-justify">
+            Global leadership in the domain of
+            <span className="font-semibold">
+              {" "}fashion & textiles
+            </span>.
+          </p>
+        </div>
+
+        {/* Mission */}
+        <div className="mb-6">
+          <h4 className="text-xl font-bold text-slate-700 mb-3">
+            Mission
+          </h4>
+
+          <ul className="list-disc pl-6 space-y-3 text-gray-700 leading-relaxed">
+            <li>
+              Be the most preferred destination for
+              <span className="font-semibold">
+                {" "}innovative thinking and sustainable solutions
+              </span>
+              {" "}in fashion & textiles.
+            </li>
+
+            <li>
+              Foster
+              <span className="font-semibold">
+                {" "}academics, research, industrial collaboration and
+                professional excellence
+              </span>
+              {" "}in fashion & textile design.
+            </li>
+
+            <li>
+              Transform young minds into
+              <span className="font-semibold">
+                {" "}competent professionals
+              </span>
+              {" "}in the field of fashion and textile design with
+              <span className="font-semibold">
+                {" "}strong human values
+              </span>.
+            </li>
+          </ul>
+        </div>
+
+      <div className="space-y-4">
+
+        
+
+        <div className="flex items-start gap-4">
+          <span className="font-bold text-slate-700 min-w-[55px]">
+            PEO 1
+          </span>
+
+          <p className="text-gray-700 leading-relaxed text-justify">
+            Embrace
+            <span className="font-semibold">
+              {" "}sustainable and ethical practices
+            </span>
+            {" "}for the communities.
+          </p>
+        </div>
+
+        <div className="flex items-start gap-4">
+          <span className="font-bold text-slate-700 min-w-[55px]">
+            PEO 2
+          </span>
+
+          <p className="text-gray-700 leading-relaxed text-justify">
+            Exhibit
+            <span className="font-semibold">
+              {" "}leadership qualities and a commitment to professional growth
+            </span>
+            {" "}in the fashion industry.
+          </p>
+        </div>
+
+        <div className="flex items-start gap-4">
+          <span className="font-bold text-slate-700 min-w-[55px]">
+            PEO 3
+          </span>
+
+          <p className="text-gray-700 leading-relaxed text-justify">
+            Demonstrate
+            <span className="font-semibold">
+              {" "}adaptability and lifelong learning capabilities
+            </span>,
+            {" "}continuously updating their knowledge and skills to stay
+            abreast of emerging technologies and design advancements.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
       <section className="bg-trustnet-bg-light py-20">
   <div className="max-w-6xl mx-auto px-6">
 <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
@@ -702,7 +788,7 @@ export default function Home() {
           src="https://www.google.com/maps?q=Manipal+University+Jaipur&output=embed"
           width="100%"
           height="320"
-          allowFullScreen=""
+          allowFullScreen
           loading="lazy"
           className="border-0"
         ></iframe>

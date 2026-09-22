@@ -1,49 +1,11 @@
-import { Calendar, Trophy, BookOpen, FileText, Users } from "lucide-react";
+import { FileText } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 export default function Guidelines() {
-
-  const trackStyles = [
-    {
-      bg: "bg-[#B8523010]",
-      border: "border-[#B85230]",
-      text: "text-[#B85230]",
-      icon: "1.",
-    },
-    {
-      bg: "bg-[#8E754010]",
-      border: "border-[#8E7540]",
-      text: "text-[#8E7540]",
-      icon: "2.",
-    },
-    {
-      bg: "bg-[#B8523010]",
-      border: "border-[#B85230]",
-      text: "text-[#B85230]",
-      icon: "3.",
-    },
-    {
-      bg: "bg-[#1D2E5E10]",
-      border: "border-[#1D2E5E]",
-      text: "text-[#1D2E5E]",
-      icon: "4.",
-    },
-    {
-      bg: "bg-[#2A9D8F10]",
-      border: "border-[#2A9D8F]",
-      text: "text-[#2A9D8F]",
-      icon: "5.",
-    },
-  ];
-
   return (
     <div>
-
-      {/* Hero */}
       <section className="py-20 bg-primary border-b border-[#DDD6CE]">
-
         <div className="container mx-auto px-4 text-center">
-
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Submission Guidelines
           </h1>
@@ -52,442 +14,247 @@ export default function Guidelines() {
             Submit your original research and contribute to global discussions on
             heritage, design, culture, and sustainable futures.
           </p>
-
         </div>
-
       </section>
-<section className="py-20 bg-white">
-  <div className="container mx-auto px-4">
-    <div className="max-w-6xl mx-auto">
 
-      {/* Full Paper Submission */}
-      <Card className="bg-white border border-[#D6D1CB] shadow-sm rounded-xl mb-16 overflow-hidden">
-        <CardContent className="p-10">
-
-          <div className="mb-10">
-            <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
-              Full Paper Submission Instructions
-            </h2>
-            <div className="w-20 h-[2px] bg-black"></div>
-          </div>
-
-          <p className="text-gray-700 text-lg leading-relaxed mb-10">
-            Authors whose abstracts have been accepted are invited to submit
-            their full papers for peer review. Please read all submission
-            instructions carefully before uploading your manuscript.
-          </p>
-
-          <div className="space-y-10">
-
-            {/* Submission Instructions */}
-            <div className="border border-[#D6D1CB] rounded-lg p-8 bg-[#FAFAFA]">
-              <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 rounded-full border border-black flex items-center justify-center">
-                  <FileText className="w-5 h-5 text-black" />
-                </div>
-                <h3 className="text-xl font-semibold text-black">
-                  1. Submission – Key Instructions
-                </h3>
-              </div>
-
-              <ul className="space-y-4 text-gray-700">
-
-                <li className="flex items-start gap-3">
-                  <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                  <span>
-                    <strong>Portal:</strong> Submit your full paper through the
-                    Microsoft CMT Portal.
-                  </span>
-                </li>
-
-                <li className="flex items-start gap-3">
-                  <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                  <span>
-                    <strong>Submission Opens:</strong> 26 June 2026.
-                  </span>
-                </li>
-
-                <li className="flex items-start gap-3">
-                  <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                  <span>
-                    <strong>Submission Deadline:</strong> 1 August 2026.
-                  </span>
-                </li>
-
-                <li className="flex items-start gap-3">
-                  <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                  <span>
-                    <strong>Template:</strong> Use the manuscript template
-                    available on the conference website. Do not modify the
-                    prescribed format.
-                  </span>
-                </li>
-
-                <li className="flex items-start gap-3">
-                  <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                  <span>
-                    <strong>Length:</strong> 8–10 pages only (including figures,
-                    tables, and references). No additional pages are permitted.
-                  </span>
-                </li>
-
-                <li className="flex items-start gap-3">
-                  <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                  <span>
-                    <strong>File Format:</strong> PDF only.
-                  </span>
-                </li>
-
-                <li className="flex items-start gap-3">
-                  <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                  <span>
-                    <strong>Double-Blind Review:</strong> Do not include author
-                    names, affiliations, email addresses, ORCID IDs, or any
-                    identifying information anywhere in the manuscript.
-                  </span>
-                </li>
-
-                <li className="flex items-start gap-3">
-                  <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                  <span>
-                    At least one author of each accepted paper must register
-                    with the full registration fee and present the paper during
-                    the conference.
-                  </span>
-                </li>
-
-                <li className="flex items-start gap-3">
-                  <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                  <span>
-                    <strong>Review Decision:</strong> Authors will be notified
-                    by <strong>10 September 2026</strong>.
-                  </span>
-                </li>
-
-                <li className="flex items-start gap-3">
-                  <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                  <span>
-                    Acceptance of an abstract is an invitation to submit a full
-                    paper and does not guarantee final acceptance.
-                  </span>
-                </li>
-
-                <li className="flex items-start gap-3">
-                  <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                  <span>
-                    Selected and presented papers may be considered for
-                    publication in the proposed Springer (Scopus-indexed) book
-                    series <strong>"Urban Cultures – Heritage, Design &
-                    Sustainable Futures"</strong> or <strong>Textile: Cloth &
-                    Culture</strong>, subject to editorial policy and peer
-                    review.
-                  </span>
-                </li>
-
-              </ul>
-            </div>
-
-            {/* Abstract Requirements */}
-            <div className="border border-[#D6D1CB] rounded-lg p-8 bg-[#FAFAFA]">
-              <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 rounded-full border border-black flex items-center justify-center">
-                  <FileText className="w-5 h-5 text-black" />
-                </div>
-                <h3 className="text-xl font-semibold text-black">
-                  2. Abstract Requirements (within the Full Paper)
-                </h3>
-              </div>
-
-              <ul className="space-y-4 text-gray-700">
-
-                <li className="flex items-start gap-3">
-                  <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                  <span>Maximum 200 words.</span>
-                </li>
-
-                <li className="flex items-start gap-3">
-                  <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                  <span>
-                    Write the abstract as one continuous paragraph without
-                    headings such as Objectives, Methodology, Results, or
-                    Conclusions.
-                  </span>
-                </li>
-
-                <li className="flex items-start gap-3">
-                  <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                  <span>Include 5–7 keywords.</span>
-                </li>
-
-                <li className="flex items-start gap-3">
-                  <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                  <span>
-                    Do not include references or citations in the abstract.
-                  </span>
-                </li>
-
-              </ul>
-            </div>
-
-            {/* Originality */}
-            <div className="border border-[#D6D1CB] rounded-lg p-8 bg-[#FAFAFA]">
-              <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 rounded-full border border-black flex items-center justify-center">
-                  <FileText className="w-5 h-5 text-black" />
-                </div>
-                <h3 className="text-xl font-semibold text-black">
-                  3. Originality, Plagiarism & Eligibility
-                </h3>
-              </div>
-
-              <ol className="list-decimal ml-6 space-y-4 text-gray-700">
-
-                <li>
-                  The paper must present original, unpublished research written
-                  in English.
-                </li>
-
-                <li>
-                  Opinion-only manuscripts are not acceptable. Papers must
-                  clearly present objectives, methodology, and research
-                  findings.
-                </li>
-
-                <li>
-                  The manuscript should clearly establish the novelty and
-                  significance of the work through an appropriate review of the
-                  relevant literature.
-                </li>
-
-                <li>
-                  Similarity index must not exceed <strong>10%</strong>
-                  (excluding references). Papers exceeding this limit will be
-                  rejected.
-                </li>
-
-                <li>
-                  Papers generated using AI or Large Language Models (LLMs) are
-                  not permitted. AI-generated manuscripts with substantial
-                  overlap will be rejected.
-                </li>
-
-                <li>
-                  If AI tools have been used to assist in preparing any part of
-                  the manuscript, this must be clearly disclosed in the
-                  <strong> Acknowledgement</strong> section. The Programme
-                  Committee reserves the right to reject submissions where AI
-                  usage compromises originality.
-                </li>
-
-              </ol>
-            </div>
-
-          </div>
-
-          {/* Buttons */}
-          <div className="flex flex-wrap justify-center gap-4 pt-10">
-
-            <a
-              href="/FullPaperTemplate.docx"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white border-2 border-trustnet-primary text-trustnet-primary px-8 py-4 rounded-full font-semibold hover:bg-trustnet-bg transition"
-            >
-              Download Full Paper Template
-            </a>
-
-            <a
-              href="https://cmt3.research.microsoft.com/UCHDSF2026"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white border-2 border-trustnet-primary text-trustnet-primary px-8 py-4 rounded-full font-semibold hover:bg-trustnet-bg transition"
-            >
-              Full Paper Submission Portal
-            </a>
-
-          </div>
-
-        </CardContent>
-      </Card>
-
-      {/* CMT Acknowledgment */}
-      <Card className="bg-[#FAFAFA] border border-[#D6D1CB] shadow-sm rounded-xl">
-        <CardContent className="p-10">
-
-          <h2 className="text-2xl font-bold text-black mb-4">
-            CMT Acknowledgment
-          </h2>
-
-          <div className="w-16 h-[2px] bg-black mb-6"></div>
-
-          <p className="text-gray-700 text-sm leading-6">
-            The Microsoft CMT service was used for managing the peer-reviewing
-            process for this conference. This service was provided free of
-            charge by Microsoft, which covered all associated costs including
-            Azure cloud services, software development, and technical support.
-          </p>
-
-        </CardContent>
-      </Card>
-
-    </div>
-  </div>
-</section>
-
-
-
-      {/* Main */}
       <section className="py-20 bg-white">
-
         <div className="container mx-auto px-4">
-
-          <div className="max-w-6xl mx-auto">
-
-            {/* Submission Guidelines */}
+          <div className="max-w-6xl mx-auto space-y-16">
             <Card className="bg-white border border-[#D6D1CB] shadow-sm rounded-xl mb-16 overflow-hidden">
-
               <CardContent className="p-10">
-
                 <div className="mb-10">
-
                   <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
-                    Submission Guidelines
+                    Full Paper Submission Instructions
                   </h2>
-
                   <div className="w-20 h-[2px] bg-black"></div>
-
                 </div>
 
-                <p className="text-gray-700 text-lg leading-relaxed max-w-5xl mb-10">
-                  Researchers, academicians, and professionals are invited to submit
-                  research abstracts and full papers for oral and poster presentations.
-                  Selected presentations will be recognized under the
-                  <span className="font-semibold text-black">
-                    {" "}Best Paper Category{" "}
-                  </span>
-                  and
-                  <span className="font-semibold text-black">
-                    {" "}Outstanding Research Category.
-                  </span>
+                <p className="text-gray-700 text-lg leading-relaxed mb-10">
+                  Authors whose abstracts have been accepted are invited to submit
+                  their full papers for peer review. Please read all submission
+                  instructions carefully before uploading your manuscript.
                 </p>
 
-                <div className="grid md:grid-cols-1 gap-8">
-
-                  {/* Requirements */}
+                <div className="space-y-10">
                   <div className="border border-[#D6D1CB] rounded-lg p-8 bg-[#FAFAFA]">
-
                     <div className="flex items-center gap-3 mb-6">
-
                       <div className="w-10 h-10 rounded-full border border-black flex items-center justify-center">
                         <FileText className="w-5 h-5 text-black" />
                       </div>
-
                       <h3 className="text-xl font-semibold text-black">
-                        Submission Requirements
+                        1. Submission – Key Instructions
                       </h3>
-
                     </div>
 
                     <ul className="space-y-4 text-gray-700">
-
-                   <li className="flex items-start gap-3">
+                      <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>All abstracts must be written and submitted in English.</span>
-                        </li>
+                        <span>
+                          <strong>Portal:</strong> Submit your full paper through the
+                          Microsoft CMT Portal.
+                        </span>
+                      </li>
 
-                        <li className="flex items-start gap-3">
+                      <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>Abstracts must be prepared according to the prescribed template (Word/PDF), which can be downloaded from the website. </span>
-                        </li>
+                        <span>
+                          <strong>Submission Opens:</strong> 26 June 2026.
+                        </span>
+                      </li>
 
-                        <li className="flex items-start gap-3">
-                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span> <span>Abstract length should be between 200 words excluding title, keywords, paper type, and references.</span>
-                        </li>
-
-                        <li className="flex items-start gap-3">
+                      <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>Submissions must be original and unpublished research work.</span>
-                        </li>
+                        <span>
+                          <strong>Submission Deadline:</strong> 1 August 2026.
+                        </span>
+                      </li>
 
-                        <li className="flex items-start gap-3">
+                      <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>All submissions will undergo review by the technical committee.</span>
-                        </li>
+                        <span>
+                          <strong>Template:</strong> Use the manuscript template
+                          available on the conference website. Do not modify the
+                          prescribed format.
+                        </span>
+                      </li>
 
+                      <li className="flex items-start gap-3">
+                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
+                        <span>
+                          <strong>Length:</strong> 8–10 pages only (including figures,
+                          tables, and references). No additional pages are permitted.
+                        </span>
+                      </li>
+
+                      <li className="flex items-start gap-3">
+                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
+                        <span>
+                          <strong>File Format:</strong> PDF only.
+                        </span>
+                      </li>
+
+                      <li className="flex items-start gap-3">
+                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
+                        <span>
+                          <strong>Double-Blind Review:</strong> Do not include author
+                          names, affiliations, email addresses, ORCID IDs, or any
+                          identifying information anywhere in the manuscript.
+                        </span>
+                      </li>
+
+                      <li className="flex items-start gap-3">
+                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
+                        <span>
+                          At least one author of each accepted paper must register
+                          with the full registration fee and present the paper during
+                          the conference.
+                        </span>
+                      </li>
+
+                      <li className="flex items-start gap-3">
+                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
+                        <span>
+                          <strong>Review Decision:</strong> Authors will be notified
+                          by <strong>10 September 2026</strong>.
+                        </span>
+                      </li>
+
+                      <li className="flex items-start gap-3">
+                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
+                        <span>
+                          Acceptance of an abstract is an invitation to submit a full
+                          paper and does not guarantee final acceptance.
+                        </span>
+                      </li>
+
+                      <li className="flex items-start gap-3">
+                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
+                        <span>
+                          Selected and presented papers may be considered for
+                          publication in the proposed Springer (Scopus-indexed) book
+                          series <strong>"Urban Cultures – Heritage, Design &
+                          Sustainable Futures"</strong> or <strong>Textile: Cloth &
+                          Culture</strong>, subject to editorial policy and peer
+                          review.
+                        </span>
+                      </li>
                     </ul>
-
                   </div>
 
-                  {/* Formats 
                   <div className="border border-[#D6D1CB] rounded-lg p-8 bg-[#FAFAFA]">
-
                     <div className="flex items-center gap-3 mb-6">
-
                       <div className="w-10 h-10 rounded-full border border-black flex items-center justify-center">
-                        <Users className="w-5 h-5 text-black" />
+                        <FileText className="w-5 h-5 text-black" />
                       </div>
-
                       <h3 className="text-xl font-semibold text-black">
-                        Presentation Formats
+                        2. Abstract Requirements (within the Full Paper)
                       </h3>
-
                     </div>
 
                     <ul className="space-y-4 text-gray-700">
-
                       <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>Oral presentations</span>
+                        <span>Maximum 200 words.</span>
                       </li>
 
                       <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>Poster presentations</span>
+                        <span>
+                          Write the abstract as one continuous paragraph without
+                          headings such as Objectives, Methodology, Results, or
+                          Conclusions.
+                        </span>
                       </li>
 
                       <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>Panel discussions</span>
+                        <span>Include 5–7 keywords.</span>
                       </li>
 
                       <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>Interactive academic sessions</span>
+                        <span>
+                          Do not include references or citations in the abstract.
+                        </span>
                       </li>
-
                     </ul>
+                  </div>
 
-                  </div>*/}
+                  <div className="border border-[#D6D1CB] rounded-lg p-8 bg-[#FAFAFA]">
+                    <div className="flex items-center gap-3 mb-6">
+                      <div className="w-10 h-10 rounded-full border border-black flex items-center justify-center">
+                        <FileText className="w-5 h-5 text-black" />
+                      </div>
+                      <h3 className="text-xl font-semibold text-black">
+                        3. Originality, Plagiarism & Eligibility
+                      </h3>
+                    </div>
 
+                    <ol className="list-decimal ml-6 space-y-4 text-gray-700">
+                      <li>
+                        The paper must present original, unpublished research written
+                        in English.
+                      </li>
+
+                      <li>
+                        Opinion-only manuscripts are not acceptable. Papers must
+                        clearly present objectives, methodology, and research
+                        findings.
+                      </li>
+
+                      <li>
+                        The manuscript should clearly establish the novelty and
+                        significance of the work through an appropriate review of the
+                        relevant literature.
+                      </li>
+
+                      <li>
+                        Similarity index must not exceed <strong>10%</strong>
+                        (excluding references). Papers exceeding this limit will be
+                        rejected.
+                      </li>
+
+                      <li>
+                        Papers generated using AI or Large Language Models (LLMs) are
+                        not permitted. AI-generated manuscripts with substantial
+                        overlap will be rejected.
+                      </li>
+
+                      <li>
+                        If AI tools have been used to assist in preparing any part of
+                        the manuscript, this must be clearly disclosed in the
+                        <strong> Acknowledgement</strong> section. The Programme
+                        Committee reserves the right to reject submissions where AI
+                        usage compromises originality.
+                      </li>
+                    </ol>
+                  </div>
                 </div>
 
-                <div className="flex flex-wrap gap-4 justify-center pt-4">
-                <a
-          href="/Abstract.docx"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-white border-2 border-trustnet-primary text-trustnet-primary px-8 py-4 rounded-full font-semibold hover:bg-trustnet-bg transition"
-        >
-          Download Abstract Template
-        </a>
-              <a
-          href="https://cmt3.research.microsoft.com/UCHDSF2026"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-white border-2 border-trustnet-primary text-trustnet-primary px-8 py-4 rounded-full font-semibold hover:bg-trustnet-bg transition"
-        >
-          Abstract Submission Portal
-        </a>
-      </div>
+                <div className="flex flex-wrap justify-center gap-4 pt-10">
+                  <a
+                    href="/Springer_full_paper_format_UCHDSF.docx"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-white border-2 border-trustnet-primary text-trustnet-primary px-8 py-4 rounded-full font-semibold hover:bg-trustnet-bg transition"
+                  >
+                    Download Full Paper Template
+                  </a>
 
+                  <a
+                    href="https://cmt3.research.microsoft.com/UCHDSF2026"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-white border-2 border-trustnet-primary text-trustnet-primary px-8 py-4 rounded-full font-semibold hover:bg-trustnet-bg transition"
+                  >
+                    Full Paper Submission Portal
+                  </a>
+                </div>
               </CardContent>
-
             </Card>
-            {/* Publication */}
-            <Card className="mt-16 bg-[#FAFAFA] border border-[#D6D1CB] shadow-sm rounded-xl">
 
+            <Card className="bg-[#FAFAFA] border border-[#D6D1CB] shadow-sm rounded-xl">
               <CardContent className="p-10">
-
                 <h2 className="text-3xl font-bold text-black mb-6">
                   Publication & Indexing
                 </h2>
@@ -495,60 +262,42 @@ export default function Guidelines() {
                 <div className="w-20 h-[2px] bg-black mb-8"></div>
 
                 <p className="text-gray-700 leading-relaxed text-base mb-8">
-                 All selected papers will be published in Springer (Scopus-indexed) book series under the proposed title: Urban Cultures- Heritage, Design & Sustainable Futures.
-                  <br/>A limited number of high-quality papers will be considered for a special issue in TEXTILE: Cloth and Culture (Taylor & Francis, Scopus Q2). Extended versions will be required for journal consideration. All submissions will undergo double-blind peer review.
+                  All selected papers will be published in Springer (Scopus-indexed)
+                  book series under the proposed title: Urban Cultures - Heritage,
+                  Design & Sustainable Futures. A limited number of high-quality
+                  papers will be considered for a special issue in TEXTILE: Cloth and
+                  Culture (Taylor & Francis, Scopus Q2). Extended versions will be
+                  required for journal consideration. All submissions will undergo
+                  double-blind peer review.
                 </p>
-              <img
+
+                <img
                   src="/pub-logo.png"
                   alt="Publication and Indexing"
-                className="w-64 md:w-80 mx-auto object-contain mb-6"
+                  className="w-64 md:w-80 mx-auto object-contain mb-6"
                 />
-             {/*    <div className="flex flex-wrap gap-4">
-
-                  <div className="bg-black text-white px-5 py-3 rounded-lg flex items-center">
-                    <BookOpen className="mr-2 h-4 w-4" />
-                    Abstract Book
-                  </div>
-
-                  <div className="bg-[#B85230] text-white px-5 py-3 rounded-lg flex items-center">
-                    <Trophy className="mr-2 h-4 w-4" />
-                    Scopus Indexed Proceedings
-                  </div>
-
-                </div> */}
-
               </CardContent>
-
             </Card>
 
-             {/* Publication */}
-            <Card className="mt-16 bg-[#FAFAFA] border border-[#D6D1CB] shadow-sm rounded-xl">
-
+            <Card className="bg-[#FAFAFA] border border-[#D6D1CB] shadow-sm rounded-xl">
               <CardContent className="p-10">
+                <h2 className="text-2xl font-bold text-black mb-4">
+                  CMT Acknowledgment
+                </h2>
 
-                            <h2 className="text-2xl font-bold text-black mb-4">
-              CMT Acknowledgment
-            </h2>
+                <div className="w-16 h-[2px] bg-black mb-6"></div>
 
-            <div className="w-16 h-[2px] bg-black mb-6"></div>
-
-           <p className="text-gray-700 text-sm leading-6 mb-6">
-  The Microsoft CMT service was used for managing the peer-reviewing process
-  for this conference. This service was provided for free by Microsoft and
-  they bore all expenses, including costs for Azure cloud services as well as
-  for software development and support.
-</p>
-
+                <p className="text-gray-700 text-sm leading-6 mb-6">
+                  The Microsoft CMT service was used for managing the peer-reviewing
+                  process for this conference. This service was provided for free by
+                  Microsoft and they bore all expenses, including costs for Azure
+                  cloud services as well as for software development and support.
+                </p>
               </CardContent>
-
             </Card>
-
           </div>
-
         </div>
-
       </section>
-
     </div>
   );
 }

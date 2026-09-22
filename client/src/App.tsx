@@ -16,6 +16,7 @@ import Registration from "@/pages/registration";
 import Contact from "@/pages/contact";
 import NotFound from "@/pages/not-found";
 import Guidelines from "./pages/guidelines";
+import Accomodation from "@/pages/Accomodation";
 import CallForPapers from "@/pages/callforpaper";
 
 function Router() {
@@ -25,6 +26,8 @@ function Router() {
       <Route path="/callforpaper" component={CallForPapers} />
       <Route path="/speakers" component={Speakers} />
       <Route path="/guidelines" component={Guidelines} />
+      <Route path="/accomodation" component={Accomodation} />
+      <Route path="/accommodation" component={Accomodation} />
       <Route path="/organizingcommittee" component={organizingcommittee} />
       <Route path="/advisory-committee" component={AdvisoryCommittee} />
       <Route path="/technical-program-committee" component={tpcCommittee} />

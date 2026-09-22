@@ -10,6 +10,7 @@ export default function Navigation() {
 
   const [isCommitteeDropdownOpen, setIsCommitteeDropdownOpen] =
     useState(false);
+  const [isInfoDropdownOpen, setIsInfoDropdownOpen] = useState(false);
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -19,7 +20,12 @@ export default function Navigation() {
     { path: "/", label: "Home" },
     { path: "/callforpaper", label: "Call for Papers" },
     { path: "/#speakers", label: "Speakers", isHash: true },
-     { path: "/guidelines", label: "Information" },
+    { path: "/technical-program-committee", label: "Technical Program Committee" },
+  ];
+
+  const informationItems = [
+    { path: "/guidelines", label: "Submission Instructions" },
+    { path: "/accomodation", label: "Accommodation" },
   ];
 
   // ONLY organizing committee for now
@@ -103,6 +109,67 @@ export default function Navigation() {
                     </Link>
                   );
                 })}
+
+            {/* Information Dropdown */}
+            <div className="relative">
+
+              <Button
+                variant={
+                  location === "/guidelines" || location === "/accomodation" || location === "/accommodation"
+                    ? "default"
+                    : "ghost"
+                }
+                className={`
+                  transition-all duration-200
+                  font-medium
+                  flex items-center space-x-1
+                  rounded-md
+                  ${location === "/guidelines" || location === "/accomodation" || location === "/accommodation"
+                    ? "text-white"
+                    : "text-gray-700 hover:text-primary"
+                  }
+                `}
+                onClick={() => {
+                  setIsInfoDropdownOpen(!isInfoDropdownOpen);
+                  setIsCommitteeDropdownOpen(false);
+                }}
+              >
+                <span>Information</span>
+
+                <ChevronDown
+                  className={`h-4 w-4 transition-transform duration-200 ${isInfoDropdownOpen ? "rotate-180" : ""}`}
+                />
+              </Button>
+
+              {isInfoDropdownOpen && (
+                <div className="absolute top-full left-0 mt-2 w-64 bg-white border border-[#DDD6CE] rounded-lg shadow-xl z-50 overflow-hidden">
+
+                  {informationItems.map((item) => (
+                    <Link key={item.path} href={item.path}>
+
+                      <Button
+                        variant="ghost"
+                        className={`
+                          w-full justify-start text-left
+                          px-4 py-3 rounded-none
+                          ${location === item.path
+                            ? "bg-primary text-white hover:bg-primary"
+                            : "text-gray-700 hover:text-primary hover:bg-gray-50"
+                          }
+                        `}
+                        onClick={() => {
+                          setIsInfoDropdownOpen(false);
+                        }}
+                      >
+                        {item.label}
+                      </Button>
+
+                    </Link>
+                  ))}
+
+                </div>
+              )}
+            </div>
 
             {/* Conference Committee Dropdown */}
             <div className="relative">
@@ -225,6 +292,62 @@ export default function Navigation() {
 
                 </Link>
               ))}
+
+              {/* Information Mobile */}
+              <div>
+
+                <Button
+                  variant={
+                    location === "/guidelines" || location === "/accomodation" || location === "/accommodation"
+                      ? "default"
+                      : "ghost"
+                  }
+                  className={`
+                    w-full justify-between
+                    font-medium rounded-md
+                    ${location === "/guidelines" || location === "/accomodation" || location === "/accommodation"
+                      ? "text-white"
+                      : "text-gray-700 hover:text-primary"
+                    }
+                  `}
+                  onClick={() => {
+                    setIsInfoDropdownOpen(!isInfoDropdownOpen);
+                    setIsCommitteeDropdownOpen(false);
+                  }}
+                >
+                  <span>Information</span>
+
+                  <ChevronDown
+                    className={`h-4 w-4 transition-transform duration-200 ${isInfoDropdownOpen ? "rotate-180" : ""}`}
+                  />
+                </Button>
+
+                {isInfoDropdownOpen && (
+                  <div className="ml-4 mt-2 space-y-2">
+                    {informationItems.map((item) => (
+                      <Link key={item.path} href={item.path}>
+                        <Button
+                          variant="ghost"
+                          className={`
+                            w-full justify-start text-sm rounded-md
+                            ${location === item.path
+                              ? "bg-primary text-white hover:bg-primary"
+                              : "text-gray-600 hover:text-primary"
+                            }
+                          `}
+                          onClick={() => {
+                            setIsMobileMenuOpen(false);
+                            setIsInfoDropdownOpen(false);
+                          }}
+                        >
+                          {item.label}
+                        </Button>
+                      </Link>
+                    ))}
+                  </div>
+                )}
+
+              </div>
 
               {/* Conference Committee Mobile */}
               <div>

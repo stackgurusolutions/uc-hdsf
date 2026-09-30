@@ -439,6 +439,14 @@ Netaji Subhas University of Technology (NSUT), New Delhi, India
                     <p className="text-gray-600 text-sm">IIT Roorkee</p>
                   </CardContent>
                 </Card>
+
+                <Card className="bg-gradient-to-br from-blue-100 to-blue-50 shadow-lg rounded-2xl">
+                  <CardContent className="p-4 text-center">
+                    <h3 className="text-lg font-bold mb-1">Dr. Jay Patel</h3>
+                    <p className="text-blue-600 font-semibold text-sm mb-1">Associate Professor & Head, Department of Design</p>
+                    <p className="text-gray-600 text-sm">Bansthali Vidyapith, Rajasthan</p>
+                  </CardContent>
+                </Card>
           </div>
         </div>
       </div>

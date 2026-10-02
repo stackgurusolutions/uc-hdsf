@@ -259,12 +259,12 @@ export default function Home() {
                 date: "25 JUNE 2026",
               },
               {
-                title: "Full Paper Submission",
+                title: "Full Paper Decision",
                 date: "01 AUGUST 2026",
               },
               {
-                title: "Full Paper Decision",
-                date: "10 SEPTEMBER 2026",
+                title: "Full Paper Submission",
+                date: "15 OCTOBER 2026",
               },
              /*  {
                 title: "Camera-Ready Submission",

@@ -42,7 +42,7 @@ export default function Guidelines() {
                         <FileText className="w-5 h-5 text-black" />
                       </div>
                       <h3 className="text-xl font-semibold text-black">
-                        1. Submission – Key Instructions
+                        1. Final Manuscript – Key Instructions
                       </h3>
                     </div>
 
@@ -50,92 +50,49 @@ export default function Guidelines() {
                       <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
                         <span>
-                          <strong>Portal:</strong> Submit your full paper through the
-                          Microsoft CMT Portal.
+                          <strong>Who Should Submit:</strong> Authors of accepted papers must
+                          revise their manuscripts to address every reviewer’s comment before
+                          submitting the final version.
                         </span>
                       </li>
 
                       <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
                         <span>
-                          <strong>Submission Opens:</strong> 26 June 2026.
+                          <strong>Submission Deadline:</strong> 15 October 2026.
                         </span>
                       </li>
 
                       <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
                         <span>
-                          <strong>Submission Deadline:</strong> 1 August 2026.
+                          <strong>Template:</strong> Use the Springer manuscript template (available on the conference website). Do
+                          not reformat or substitute your own layout. 
                         </span>
                       </li>
 
                       <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
                         <span>
-                          <strong>Template:</strong> Use the manuscript template
-                          available on the conference website. Do not modify the
-                          prescribed format.
+                          <strong>Length:</strong> Approximately 10–11 formatted pages,
+                          including figures, tables, and references.
                         </span>
                       </li>
 
                       <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
                         <span>
-                          <strong>Length:</strong> 8–10 pages only (including figures,
-                          tables, and references). No additional pages are permitted.
+                          <strong>Registration:</strong> For each accepted paper, at least one
+                          author must register by paying the full registration fee and attend
+                          the conference to present the paper.
                         </span>
                       </li>
 
                       <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
                         <span>
-                          <strong>File Format:</strong> PDF only.
-                        </span>
-                      </li>
-
-                      <li className="flex items-start gap-3">
-                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>
-                          <strong>Double-Blind Review:</strong> Do not include author
-                          names, affiliations, email addresses, ORCID IDs, or any
-                          identifying information anywhere in the manuscript.
-                        </span>
-                      </li>
-
-                      <li className="flex items-start gap-3">
-                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>
-                          At least one author of each accepted paper must register
-                          with the full registration fee and present the paper during
-                          the conference.
-                        </span>
-                      </li>
-
-                      <li className="flex items-start gap-3">
-                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>
-                          <strong>Review Decision:</strong> Authors will be notified
-                          by <strong>10 September 2026</strong>.
-                        </span>
-                      </li>
-
-                      <li className="flex items-start gap-3">
-                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>
-                          Acceptance of an abstract is an invitation to submit a full
-                          paper and does not guarantee final acceptance.
-                        </span>
-                      </li>
-
-                      <li className="flex items-start gap-3">
-                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>
-                          Selected and presented papers may be considered for
-                          publication in the proposed Springer (Scopus-indexed) book
-                          series <strong>"Urban Cultures – Heritage, Design &
-                          Sustainable Futures"</strong> or <strong>Textile: Cloth &
-                          Culture</strong>, subject to editorial policy and peer
-                          review.
+                          <strong>Important:</strong> Incomplete final submissions will not be
+                          processed.
                         </span>
                       </li>
                     </ul>
@@ -147,34 +104,52 @@ export default function Guidelines() {
                         <FileText className="w-5 h-5 text-black" />
                       </div>
                       <h3 className="text-xl font-semibold text-black">
-                        2. Abstract Requirements (within the Full Paper)
+                        2. Final Manuscript Requirements
                       </h3>
                     </div>
 
                     <ul className="space-y-4 text-gray-700">
                       <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>Maximum 200 words.</span>
-                      </li>
-
-                      <li className="flex items-start gap-3">
-                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
                         <span>
-                          Write the abstract as one continuous paragraph without
-                          headings such as Objectives, Methodology, Results, or
-                          Conclusions.
+                          <strong>Author Details:</strong> The final manuscript must include
+                          all authors’ full names, current affiliations, and email addresses.
+                          The corresponding author’s email must be clearly identified.
                         </span>
                       </li>
 
                       <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
-                        <span>Include 5–7 keywords.</span>
+                        <span>
+                          <strong>Institutional Email:</strong> Please use your official
+                          institutional email address wherever possible.
+                        </span>
                       </li>
 
                       <li className="flex items-start gap-3">
                         <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
                         <span>
-                          Do not include references or citations in the abstract.
+                          <strong>Abstract:</strong> The abstract must not exceed 200 words
+                          and must be written as a single flowing paragraph without labelled
+                          sections, references, or citations.
+                        </span>
+                      </li>
+
+                      <li className="flex items-start gap-3">
+                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
+                        <span>
+                          <strong>Keywords:</strong> Include appropriate keywords following
+                          the Springer manuscript template.
+                        </span>
+                      </li>
+
+                      <li className="flex items-start gap-3">
+                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
+                        <span>
+                          <strong>Required Content:</strong> The final manuscript must contain
+                          the title, authors’ full names, current affiliations, email
+                          addresses, clearly identified corresponding author email, abstract,
+                          keywords, main content, and references.
                         </span>
                       </li>
                     </ul>
@@ -186,48 +161,111 @@ export default function Guidelines() {
                         <FileText className="w-5 h-5 text-black" />
                       </div>
                       <h3 className="text-xl font-semibold text-black">
-                        3. Originality, Plagiarism & Eligibility
+                        3. CMT Final Submission – Required Files
                       </h3>
                     </div>
 
                     <ol className="list-decimal ml-6 space-y-4 text-gray-700">
                       <li>
-                        The paper must present original, unpublished research written
-                        in English.
+                        <strong>PaperID_Manuscript.docx</strong> — The complete revised
+                        manuscript, including figures and tables, following the Springer
+                        template and UC-HDSF guidelines.
                       </li>
 
                       <li>
-                        Opinion-only manuscripts are not acceptable. Papers must
-                        clearly present objectives, methodology, and research
-                        findings.
+                        <strong>PaperID_Manuscript.pdf</strong> — The same manuscript in PDF
+                        format.
                       </li>
 
                       <li>
-                        The manuscript should clearly establish the novelty and
-                        significance of the work through an appropriate review of the
-                        relevant literature.
+                        <strong>PaperID_Tracked_Changes.pdf</strong> — A PDF showing all edits
+                        made against the reviewed version.
                       </li>
 
                       <li>
-                        Similarity index must not exceed <strong>10%</strong>
-                        (excluding references). Papers exceeding this limit will be
-                        rejected.
+                        <strong>PaperID_Response_to_Reviewers.pdf</strong> — A detailed
+                        response addressing each reviewer comment individually, clearly
+                        stating where and how the manuscript was changed. A single aggregated
+                        response will not be accepted.
                       </li>
 
                       <li>
-                        Papers generated using AI or Large Language Models (LLMs) are
-                        not permitted. AI-generated manuscripts with substantial
-                        overlap will be rejected.
+                        <strong>PaperID_Figures.zip</strong> — All figures in JPEG format
+                        (.jpg or .jpeg) at a minimum of 300 dpi. Figures must be named
+                        <strong> Fig1.jpg, Fig2.jpg, </strong> and so on. The ZIP file must not
+                        exceed 12 MB.
                       </li>
 
                       <li>
-                        If AI tools have been used to assist in preparing any part of
-                        the manuscript, this must be clearly disclosed in the
-                        <strong> Acknowledgement</strong> section. The Programme
-                        Committee reserves the right to reject submissions where AI
-                        usage compromises originality.
+                        <strong>PaperID_Supplementary_Evidence.pdf</strong> — Material
+                        evidencing the work reported, such as survey instruments, interview or
+                        observation protocols, datasets, experiment records, field
+                        documentation, or coding sheets, as appropriate to the methodology.
+                        This material supports verification of the findings and will not be
+                        published.
                       </li>
                     </ol>
+                  </div>
+
+                  <div className="border border-[#D6D1CB] rounded-lg p-8 bg-[#FAFAFA]">
+                    <div className="flex items-center gap-3 mb-6">
+                      <div className="w-10 h-10 rounded-full border border-black flex items-center justify-center">
+                        <FileText className="w-5 h-5 text-black" />
+                      </div>
+                      <h3 className="text-xl font-semibold text-black">
+                        4. File Upload Instructions
+                      </h3>
+                    </div>
+
+                    <ul className="space-y-4 text-gray-700">
+                      <li className="flex items-start gap-3">
+                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
+                        <span>
+                          <strong>Through “Edit Submission”:</strong> Replace your earlier
+                          files with the revised manuscript files:
+                          <strong> PaperID_Manuscript.docx</strong> and
+                          <strong> PaperID_Manuscript.pdf</strong>.
+                        </span>
+                      </li>
+
+                      <li className="flex items-start gap-3">
+                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
+                        <span>
+                          <strong>Through “Upload Supplementary Material”:</strong> Upload
+                          <strong> PaperID_Tracked_Changes.pdf</strong>,
+                          <strong> PaperID_Response_to_Reviewers.pdf</strong>,
+                          <strong> PaperID_Figures.zip</strong>, and
+                          <strong> PaperID_Supplementary_Evidence.pdf</strong>.
+                        </span>
+                      </li>
+
+                      <li className="flex items-start gap-3">
+                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
+                        <span>
+                          <strong>Figure Credits:</strong> Any material drawn from another
+                          source must carry a full credit line in the caption and, where
+                          required, permission to reproduce.
+                        </span>
+                      </li>
+
+                      <li className="flex items-start gap-3">
+                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
+                        <span>
+                          <strong>File Naming:</strong> All six files must be named exactly as
+                          specified, using your CMT Paper ID in place of
+                          <strong> PaperID</strong> (e.g.,
+                          <strong> 261_Manuscript.docx</strong>).
+                        </span>
+                      </li>
+
+                      <li className="flex items-start gap-3">
+                        <span className="mt-2 w-2 h-2 rounded-full bg-black"></span>
+                        <span>
+                          <strong>Submission Completeness:</strong> All six required files must
+                          be uploaded. Incomplete submissions will not be processed.
+                        </span>
+                      </li>
+                    </ul>
                   </div>
                 </div>
 

@@ -299,6 +299,37 @@ export default function organizingcommittee() {
                             <p className="text-sm text-gray-600">Department of Interior Design</p>
                           </CardContent>
                         </Card>
+
+                        <Card>
+                          <CardContent className="p-4">
+                            <h4 className="font-semibold">Dr. Richa Jagatramka</h4>
+                            <p className="text-sm text-gray-600">Department of Interior Design</p>
+                          </CardContent>
+                        </Card>
+
+                        <Card>
+                          <CardContent className="p-4">
+                            <h4 className="font-semibold">Ar. Apoorva Agarwal</h4>
+                            <p className="text-sm text-gray-600">Department of Interior Design</p>
+                          </CardContent>
+                        </Card>
+
+                        <Card>
+                          <CardContent className="p-4">
+                            <h4 className="font-semibold">Ar. Anushri Gaur</h4>
+                            <p className="text-sm text-gray-600">Department of Interior Design</p>
+                          </CardContent>
+                        </Card>
+
+                        <Card>
+                          <CardContent className="p-4">
+                            <h4 className="font-semibold">Dr. Siddhant Walia</h4>
+                            <p className="text-sm text-gray-600">School of Architecture &amp; Design</p>
+                          </CardContent>
+                        </Card>
+
+
+
                         {/* <Card>
                           <CardContent className="p-4">
                             <h4 className="font-semibold">All Faculty Members</h4>

@@ -241,7 +241,7 @@ export default function Registration() {
 
       <li>
         After completing the payment, please save the transaction ID and payment confirmation screenshot,
-        as both are required during the registration process.
+        as both are required during the registration process. Registration fee is not refundable and transferable.
       </li>
 
       <li>
@@ -249,12 +249,7 @@ export default function Registration() {
         of the paper.
       </li>
 
-      <li>
-        Upon confirmation of registration, the corresponding author will receive a publishing agreement
-        via email. The signed and scanned copy of this agreement must be submitted as per the instructions
-        provided in the email.
-      </li>
-      <li>Attendee registration will open soon. Please stay tuned for updates.</li>
+       <li>Attendee registration will open soon. Please stay tuned for updates.</li>
     </ul>
   </div>
 

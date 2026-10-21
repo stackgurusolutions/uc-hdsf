@@ -109,13 +109,13 @@ export default function Home() {
 
       <div className="flex flex-col sm:flex-row justify-center gap-4">
 
-        <Link href="/registration">
+        <Link href="/UC-HDSF-schedule-2026.pdf">
           <Button className="bg-[#F59E0B] hover:bg-[#d97706] px-8 py-4 text-lg rounded-full">
-            Register Now
+           Conference Schedule
           </Button>
         </Link>
 
-        <Link href="/UC-HDSF-schedule-2026.pdf" target="_blank" rel="noopener noreferrer">
+        <Link href="/Schedule-TC.pdf" target="_blank" rel="noopener noreferrer">
           <Button
             className="
               bg-black/10
@@ -132,7 +132,7 @@ export default function Home() {
               transition-all
             "
           >
-            Conference Schedule
+            Technical Session Schedule
           </Button>
         </Link>
 

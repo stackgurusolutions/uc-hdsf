@@ -115,7 +115,7 @@ export default function Home() {
           </Button>
         </Link>
 
-        <Link href="/attached_assets/UC-HDSF-schedule-2026.pdf" target="_blank" rel="noopener noreferrer">
+        <Link href="/UC-HDSF-schedule-2026.pdf" target="_blank" rel="noopener noreferrer">
           <Button
             className="
               bg-black/10

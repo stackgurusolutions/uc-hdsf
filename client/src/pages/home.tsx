@@ -107,36 +107,31 @@ export default function Home() {
 
       </div>
 
-      <div className="flex flex-col sm:flex-row justify-center gap-4">
+      
+<div className="flex flex-col sm:flex-row justify-center gap-4">
 
-        <Link href="/UC-HDSF-schedule-2026.pdf">
-          <Button className="bg-[#F59E0B] hover:bg-[#d97706] px-8 py-4 text-lg rounded-full">
-           Conference Schedule
-          </Button>
-        </Link>
+  <a
+    href="/UC-HDSF-schedule-2026.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Button className="bg-[#F59E0B] hover:bg-[#d97706] px-8 py-4 text-lg rounded-full">
+      Conference Schedule
+    </Button>
+  </a>
 
-        <Link href="/Schedule-TC.pdf" target="_blank" rel="noopener noreferrer">
-          <Button
-            className="
-              bg-black/10
-              text-black
-              border-2
-              border-black
-              hover:bg-white
-              hover:text-black
-              px-8
-              py-4
-              text-lg
-              rounded-full
-              backdrop-blur-sm
-              transition-all
-            "
-          >
-            Technical Session Schedule
-          </Button>
-        </Link>
+  <a
+    href="/Schedule-TC.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Button className="bg-black/10 text-black border-2 border-black hover:bg-white hover:text-black px-8 py-4 text-lg rounded-full backdrop-blur-sm transition-all">
+      Technical Session Schedule
+    </Button>
+  </a>
 
-      </div>
+</div>
+
 
     </div>
   </div>
